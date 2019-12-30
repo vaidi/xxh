@@ -28,7 +28,7 @@ public class RWLCachedData {
             }
         }
         try {
-            //TODO 用来使用数据  这里做测试  只是打印
+            // 用来使用数据  这里做测试  只是打印
             System.out.println("当前线程的名称："+Thread.currentThread().getName()+",数据:"+data);
         } finally {
             rwl.readLock().unlock();
