@@ -5,6 +5,8 @@ import com.oracle.xmlns.internal.webservices.jaxws_databinding.SoapBindingUse;
 import org.junit.jupiter.api.Test;
 
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileFilter;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -28,6 +30,20 @@ public class LambdaTest {
 
 
 
+
+
+    @Test
+    public void test14(){
+        File[] hiddenFiles = new File(".").listFiles(new FileFilter() {
+            @Override
+            public boolean accept(File file) {
+                return file.isHidden();
+            }
+        });
+        Arrays.asList(hiddenFiles).stream().forEach(System.out::println);
+        //也可以用这种描述
+        File[] hiddenFiless = new File(".").listFiles(File::isHidden);
+    }
 
 
 
