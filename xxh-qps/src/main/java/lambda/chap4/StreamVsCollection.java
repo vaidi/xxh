@@ -14,5 +14,9 @@ public class StreamVsCollection {
         // uncommenting this line will result in an IllegalStateException
         // because streams can be consumed only once
         //s.forEach(System.out::println);
+
+
+
+
     }
 }

@@ -11,6 +11,14 @@ import static java.util.stream.Collectors.toList;
 public class StreamBasic {
 
     public static void main(String...args){
+        Dish.menu.stream().filter(e->{
+            System.out.println("threadName:"+Thread.currentThread().getName()+e.toString());
+            return e.getCalories()>390;
+        }).map(e->{
+            System.out.println("threadNameqq:"+Thread.currentThread().getName()+e.toString());
+            return e.getName();
+        }).limit(2).collect(toList());
+
         // Java 7
         getLowCaloricDishesNamesInJava7(Dish.menu).forEach(System.out::println);
 

@@ -16,7 +16,8 @@ public class DefaultImple  implements DefaultIn{
     public static void main(String[] args) {
         DefaultIn defaultIn = new DefaultImple();
         defaultIn.self();
-
+        System.out.println(".....................");
+        Thread.dumpStack();
 
     }
 

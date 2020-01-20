@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.1.11.110:3310/baojia_bike?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: baojia_xm
+    password: DgisNKhg
