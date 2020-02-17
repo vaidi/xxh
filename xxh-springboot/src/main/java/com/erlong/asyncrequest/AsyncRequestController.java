@@ -29,6 +29,8 @@ public class AsyncRequestController {
     private ApplicationContext applicationContext;
     @Autowired
     private AsyncService asyncService;
+    @Autowired
+    private JdkService jdkService;
 
 
     @RequestMapping(value = "/email/servletReq", method = RequestMethod.GET)
@@ -105,6 +107,8 @@ public class AsyncRequestController {
 
     @RequestMapping("/test1")
     public void test1() throws InterruptedException {
+        System.out.println("调试");
+        jdkService.say();
         asyncService.asyncCallTwo();
     }
 
