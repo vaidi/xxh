@@ -1,0 +1,22 @@
+@RequestMapping流程分析
+1：注册RequestMappingHanderMapping bean。
+2：实例化RequestMappingHanderMapping bean。
+3：获取RequestMappingHandlerMapping bean实列。
+4：接受request请求
+5：在RequestMappingHandler实列中查找对应的handler。
+6：handler处理请求
+RequestMappingHandlerMapping类的主要信息
+这个类间接实现了HandlerMapping接口，是HandlerMapping类型的实例，除此之外还实现了ApplicationContextAware和IntitalzingBean这两个接口。
+	ApplicationContextAware接口：如果一个类实现了该接口，spring容器在初始化该类时候会自动调用该类的setApplicationContext（）方法
+				    这个接口主要用来让实现类得到spring容器上下文信息
+	InitializingBean接口：如果一个bean实现了该接口，spring容器初始化会调用afterPropertiesSet（）方法，这个接口主要作用是让bean在
+				初始化时可以实现一些自定义操作。
+
+
+自我理解：
+1：遍历spring容器中所有的bean，并处理这些候选的bean。
+2：检验对应的类上是否有@controller或者@requestMapping注解。
+3：发现这个带有上面注解的这个类的对应的方法找出并把对应的信息Method信息注册到handlerMethod上去，用map来对应收集。
+4：在检查到所有处理程序方法后调用。
+主要涉及到的类AbstractHandlerMethodMapping，RequestMappingHandlerMapping。
+
