@@ -1,6 +1,7 @@
 package lock;
 
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static java.lang.Thread.sleep;
@@ -18,6 +19,10 @@ public class ReentrantLockMain {
     private static final Lock LOCK = new ReentrantLock(true);
 
     public static void main(String[] args) throws InterruptedException {
+        ReentrantLockMain reentrantLockMain = new ReentrantLockMain();
+        System.out.println("开始了");
+        reentrantLockMain.parkAndCheckInterrupt();
+        System.out.println("结束了");
         for (int i = 0; i < 10; i++) {
             final int j = i;
             new Thread(new Runnable() {
@@ -41,5 +46,11 @@ public class ReentrantLockMain {
 
     }
 
+
+
+    private final boolean parkAndCheckInterrupt() {
+        LockSupport.park(this);
+        return Thread.interrupted();
+    }
 
 }

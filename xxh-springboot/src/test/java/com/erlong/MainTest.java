@@ -1,13 +1,25 @@
 package com.erlong;
+
+import com.erlong.mybatis.cache.EhCacheUtil;
 import com.erlong.mybatis.dao.UserMapper;
 import com.erlong.mybatis.entity.UserEntity;
+import com.erlong.springbean.SpringBeanConfiguration;
+import com.erlong.springbean.beandemo.Xxh;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.UUID;
+
+import static java.lang.Thread.sleep;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootLearn.class)
@@ -17,24 +29,69 @@ public class MainTest {
     private UserMapper userMapper;
     @Autowired
     private SqlSessionFactory sessionFactory;
+    @Autowired
+    private ApplicationContext applicationContext;
+
 
     @Test
-    public void test1(){
+    public void testBean() throws InterruptedException {
+        Xxh xxh = new Xxh();
+//        String[] namesForType = applicationContext.getBeanNamesForType(Xxh.class);
+//        for (String name : namesForType) {
+//            System.out.println("bean名称为===" + name);
+//        }
+//        for(int i=0;i<10;i++){
+//            new Thread(()->{
+//                Xxh xxh1 =(Xxh)applicationContext.getBean("xxh1");
+//                Xxh xxh2 =(Xxh)applicationContext.getBean("xxh2");
+//                xxh1.setMobile("134629");
+//                System.out.println("xxh1:"+xxh1.toString()+"hashCode:"+xxh1.hashCode());
+//                System.out.println("xxh2:"+xxh2.toString()+"hashCode:"+xxh2.hashCode());
+//            }).start();
+//        }
+//        sleep(1000);
+
+//        AnnotationConfigApplicationContext applicationContext2 = new AnnotationConfigApplicationContext(SpringBeanConfiguration.class);
+//        Xxh bean2 = applicationContext2.getBean(Xxh.class);
+//        System.out.println(bean2+",hashCode:"+bean2.hashCode());
+//
+
+
+// 手动执行close方法
+      //  applicationContext2.close();
+
+
+
+
+    }
+
+
+    @Test
+    public void test6() {
+        for (int i = 0; i < 100; i++) {
+            EhCacheUtil.put("key_" + i, i, UUID.randomUUID());
+        }
+    }
+
+    @Test
+    public void test1() {
         UserEntity user = userMapper.selectByUserId(1L);
         System.out.println(user.toString());
     }
 
 
-
     @Test
-    public void test2(){
+    @Transactional
+    //@Async
+    public void test2() {
         UserEntity user = userMapper.selectByUserId(1L);
         System.out.println(user.toString());
         UserEntity u2 = userMapper.selectByUserId(1L);
         System.out.println(u2.toString());
     }
+
     @Test
-    public void test3(){
+    public void test3() {
         //根据 sqlSessionFactory 产生 session
         SqlSession sqlSession = sessionFactory.openSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
@@ -52,8 +109,9 @@ public class MainTest {
 
         sqlSession.close();
     }
+
     @Test
-    public void testSelectOrderAndUserByOrderId(){
+    public void testSelectOrderAndUserByOrderId() {
         //根据 sqlSessionFactory 产生 session
         SqlSession sqlSession = sessionFactory.openSession();
         String statement = "one.to.one.mapper.OrdersMapper.selectOrderAndUserByOrderID";
@@ -71,7 +129,7 @@ public class MainTest {
 
 
     @Test
-    public void testTwoCache1(){
+    public void testTwoCache1() {
         //根据 sqlSessionFactory 产生 session
         SqlSession sqlSession1 = sessionFactory.openSession();
         SqlSession sqlSession2 = sessionFactory.openSession();
@@ -89,7 +147,6 @@ public class MainTest {
         System.out.println(u2);
         sqlSession2.close();
     }
-
 
 
 }

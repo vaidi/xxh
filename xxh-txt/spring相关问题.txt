@@ -1,0 +1,21 @@
+spring bean的初始化过程：
+静态代码块
+动态代码块
+1：构造器即实例化
+2：postConstruct
+3:initMenthod
+4:preDestroy
+5:destroyMethod
+
+spring  bean 的生命周期
+1：spring启动，查找并加载需要被spring管理，进行bean的实例化
+2：Bean实例化后对将bean的引入和值注入到Bean的属性中
+3：如果Bean实现了BeanNameAware接口的话，Spring将Bean的Id传递给SetBeanName（）方法
+4：如果Bean实现了BeanFactoryAware接口的话，spring将调用setBeanFactory（）方法，将BeanFactory容器实例传入。
+5：如果Bean实现了ApplicationContextAware接口的话 ，spring将调用bean的setApplicationContext()方法，将bean所在应用上下文引用传入进来。
+6：如果Bean实现了BeanPostProcessor接口，spring就将 调用他们的postProcessBeforeInitialization()方法。
+7：如果Bean实现InitializingBean接口，spring将调用他们的afterPropertiesSeet（）方法，类似的，如果bean使用init-method声明了初始化方法，改方法也被调用
+8：如果Bean实现了BeanPostProcessor接口，spring就将调用他们的psotProcessAfterInitialization()方法。
+9：此时，bean已经准备就绪，可以被应用程序使用了，他么将一直驻留在应用上下文中，直到应用 上下文被销毁
+10：如果bean实现了DisposableBean接口，spring将 调用她destory（）接口方法，同样，如果bean使用了destory-method生命销毁方法，该方法会被调用。
+
