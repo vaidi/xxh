@@ -1,5 +1,7 @@
 package com.erlong.springbean;
 
+import com.erlong.springbean.beandemo.SpringBeanDemo;
+import com.erlong.springbean.beandemo.SpringBeanDemo1;
 import com.erlong.springbean.beandemo.Xxh;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,5 +18,11 @@ public class SpringBeanConfiguration {
         return new Xxh();
     }
 
+
+
+    @Bean(name = {"springDemo"})
+    public SpringBeanDemo getSpringBeanDemo(){return new SpringBeanDemo();}
+    @Bean(name = {"springDemo1"})
+    public SpringBeanDemo1 getSpringBeanDemo1(){return new SpringBeanDemo1();}
 
 }

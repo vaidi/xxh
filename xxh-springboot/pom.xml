@@ -55,6 +55,10 @@
             <groupId>org.mybatis.caches</groupId>
             <artifactId>mybatis-ehcache</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
         <!-- ehcache核心jar包 -->
         <dependency>
             <groupId>net.sf.ehcache</groupId>

@@ -12,6 +12,17 @@ public class MainTest {
 
 
     public static void main(String[] args) throws InterruptedException {
+        Integer num = new Integer(100);
+        Integer integer = 100;
+        System.out.println(num == integer);
+
+
+
+
+
+
+
+
 //        final String mm =DoubleCheckLock.getInstance().thisThread;
             CountDownLatch countDownLatch = new CountDownLatch(1);
             for(int i = 0;i<10;i++){

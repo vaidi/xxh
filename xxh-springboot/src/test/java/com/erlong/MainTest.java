@@ -4,11 +4,13 @@ import com.erlong.mybatis.cache.EhCacheUtil;
 import com.erlong.mybatis.dao.UserMapper;
 import com.erlong.mybatis.entity.UserEntity;
 import com.erlong.springbean.SpringBeanConfiguration;
+import com.erlong.springbean.beandemo.SpringBeanDemo;
 import com.erlong.springbean.beandemo.Xxh;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
@@ -31,6 +33,31 @@ public class MainTest {
     private SqlSessionFactory sessionFactory;
     @Autowired
     private ApplicationContext applicationContext;
+
+
+    @Autowired
+    private SpringBeanDemo springBeanDemo;
+    @Autowired
+    private BeanFactory beanFactory;
+
+
+    @Test
+    public void testBean1(){
+        System.out.println("######beanDemo:"+springBeanDemo.getBeanName());
+        System.out.println("######beanFactory:"+springBeanDemo);
+        SpringBeanDemo demo = (SpringBeanDemo) beanFactory.getBean("springDemo");
+        //让bean拥有访问spring容器的能力
+        System.out.println("######beanFactory:"+springBeanDemo.getBeanFactory());
+
+
+    }
+
+
+
+
+
+
+
 
 
     @Test
