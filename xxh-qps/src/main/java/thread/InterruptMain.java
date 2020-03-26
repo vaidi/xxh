@@ -1,5 +1,7 @@
 package thread;
 
+import org.springframework.beans.factory.FactoryBean;
+
 import java.util.stream.IntStream;
 
 import static java.lang.Thread.sleep;
@@ -8,6 +10,9 @@ public class InterruptMain {
 
 
     public static void main(String[] args) throws InterruptedException {
+        FactoryBean
+        BeanFactory;
+
        Thread th = new Thread(()->{
            try {
                sleep(20000);

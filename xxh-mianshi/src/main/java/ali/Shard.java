@@ -1,5 +1,6 @@
 package ali;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.nio.ByteBuffer;
@@ -82,9 +83,8 @@ public class Shard<Node> {
 
 }
 @Data
+@AllArgsConstructor
 class Node{
     private String name;
-    private String password;
-    private int port;
     private int ip;
 }
