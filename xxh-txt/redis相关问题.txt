@@ -108,7 +108,7 @@ AOF:Ö»×·¼ÓÎÄ¼þ  Óë¿ìÕÕ³Ö¾Ã»¯Ïà±È£¬AOF³Ö¾Ã»¯µÄÊµÊ±ÐÔ¸üºÃ£¬Òò´ËÒÑ³ÉÎªÖ÷Á÷µÄ³Ö¾Ã»¯·
 copy and write¼¼ÊõÊµÏÖÔ­Àí£º
 
 fork£¨£©Ö®ºó£¬kernel°Ñ¸¸½ø³ÌÖÐËùÓÐµÄÄÚ´æÒ³µÄÈ¨ÏÞ¶¼ÉèÎªread-only£¬È»ºó×Ó½ø³ÌµÄµØÖ·¿Õ¼äÖ¸Ïò¸¸½ø³Ì£¬µ±¸¸½ø³ÌÖ»¶ÁÄÚ´æÊ±£¬Ïà°²ÎÞÊÂ£¬µ±ÆäÖÐÄ³¸ö½ø³ÌÐ´ÄÚ´æ
-Ê±£¬cpuÓ²¼þ¼ì²âµ½ÄÚ´æÒ³ÊÇread-onluµÄ£¬ÓÚÊÇ´¥·¢Ò³Òì³£ÖÐ¶Ï£¬ÏÝÈëkernelµÄÒ»¸öÖÐ¶ÏÀý³É£¬ÖÐ¶ÏÀý³ÌÖÐ£¬kernel¾Í»á°Ñ´¥·¢µÄÒì³£¸´ÖÆÒ»·Ý£¬ÓÚÊÇ¸¸×Ó½ø³Ì
+Ê±£¬cpuÓ²¼þ¼ì²âµ½ÄÚ´æÒ³ÊÇread-onlyµÄ£¬ÓÚÊÇ´¥·¢Ò³Òì³£ÖÐ¶Ï£¬ÏÝÈëkernelµÄÒ»¸öÖÐ¶ÏÀý³É£¬ÖÐ¶ÏÀý³ÌÖÐ£¬kernel¾Í»á°Ñ´¥·¢µÄÒì³£¸´ÖÆÒ»·Ý£¬ÓÚÊÇ¸¸×Ó½ø³Ì
 ¸÷×Ô³ÖÓÐ¶ÀÁ¢µÄÒ»·Ý¡£
 
 ÓÅµã£º
