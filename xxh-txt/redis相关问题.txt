@@ -1,6 +1,7 @@
 redisÏß³ÌÄ£ÐÍ£º
 µ¥Ïß³Ì¹¤×÷Ä£ÐÍ£¬²ÉÓÃIO¶àÂ·¸´ÓÃ»úÖÆÍ¬Ê±¼àÌý¶à¸ösocket£¬¸ù¾ÝsocketÉÏµÄÊÂ¼þÀ´Ñ¡Ôñ¶ÔÓ¦µÄÊÂ¼þ´¦ÀíÆ÷½øÐÐ´¦Àí¡£
-¶à¸ösocket¿ÉÄÜ»á²¢·¢²úÉú²»Í¬µÄ²Ù×÷£¬Ã¿¸ö²Ù×÷¶ÔÓ¦²»Í¬µÄ ÎÄ¼þÊÂ¼þ£¬µ«ÊÇIO¶àÂ·¸´ÓÃ³ÌÐò»á¼àÌý¶à¸ösocket£¬»á½«socket²úÉúµÄÊÂ¼þ·ÅÈë¶ÓÁÐÖÐÅÅ¶Ó¡£
+¶à¸ösocket¿ÉÄÜ»á²¢·¢²úÉú²»Í¬µÄ²Ù×÷£¬Ã¿¸ö²Ù×÷¶ÔÓ¦²»Í¬µÄ ÎÄ¼þÊÂ¼þ£¬µ«ÊÇIO¶àÂ·¸´ÓÃ³ÌÐò»á¼àÌý¶à¸ösocket£¬
+»á½«socket²úÉúµÄÊÂ¼þ·ÅÈë¶ÓÁÐÖÐÅÅ¶Ó¡£
 ÊÂ¼þ·ÖÅäÆ÷Ã¿´Î´Ó¶ÓÁÐÖÐÈ¡³öÒ»¸öÊÂ¼þ£¬°Ñ¸ÃÊÂ¼þ½»¸ø¶ÔÓ¦µÄÊÂ¼þ´¦ÀíÆ÷´¦Àí¡£
 
 
@@ -10,14 +11,16 @@ redisÏß³ÌÄ£ÐÍ£º
 ·ÖÉ¢ÐÔºÍ¸ºÔØ£ºÕâÁ½¸öÆäÊµÊÇ²î²»¶àµÄÒâË¼£¬¾ÍÊÇÒªÇóÒ»ÖÂÐÔ¹þÏ£Ëã·¨¶Ôkey¹þÏ£¾¡¿ÉÄÜ±ÜÃâÖØ¸´¡£
 
 Redis¼¯ÈºÊý¾Ý
-redis¼¯ÈºÊ¹ÓÃÊý¾Ý·ÖÆ¬¶ø·ÇÒ»ÖÂÐÔÀ´ÊµÏÖ£ºÒ»¸öredis¼¯Èº°üº¬16384¸ö¹þÏ£²Û£¬Êý¾Ý¿âÖÐµÄÃ¿¸ö¼ü¶¼ÊôÓÚÕâ16384¸ö¹þÏ£²ÛµÄÆäÖÐµÄÒ»¸ö£¬¼¯ÈºÊ¹ÓÃcrc16£¨key£©%16384
-À´¼ÆËãkeyÊôÓÚÄÄ¸ö²Û£¬ÆäÖÐcrc16£¨key£©Óï¾äÓÃÓÚ¼ÆËã½¨keyµÄcrc16Ð£ÑéºÍ¡£
-ÒòÎª½«Ò»¸ö¹þÏ£²Û´ÓÒ»¸ö½ÚµãÒÆ¶¯µ½ÁíÒ»¸ö½Úµã²»»áÔì³É½Úµã×èÈû£¬ËùÒÔÎÞÂÛÊÇÌí¼Ó½Úµã»¹ÊÇÒÆ³ý´æÔÚ½ÚµãÓÖ»òÕß¸Ä±äÄ³¸ö½Úµã²»°üº¬µÄ¹þÏ£²ÛÊýÁ¿£¬¶¼²»»áÔì³É¼¯ÈºÏÂÏß¡£
-Redis¼¯Èº²»±£Ö¤Êý¾ÝµÄÇ¿Ò»ÖÂÐÔ£ºÔÚÌØ¶¨Ìõ¼þÏÂ£¬redis¼¯Èº¿ÉÄÜ»á¶ªÊ§ÒÑ¾­Ö´ÐÐ¹ýµÄÐ´ÃüÁî¡£Ê¹ÓÃÒì²½¸´ÖÆÊÇredis¼¯Èº¿ÉÄÜ»á¶ªÊ§Ð´ÃüÁîµÄÆäÖÐÒ»¸öÔ­Òò¡£
+redis¼¯ÈºÊ¹ÓÃÊý¾Ý·ÖÆ¬¶ø·ÇÒ»ÖÂÐÔÀ´ÊµÏÖ£ºÒ»¸öredis¼¯Èº°üº¬16384¸ö¹þÏ£²Û£¬Êý¾Ý¿âÖÐµÄÃ¿¸ö¼ü¶¼ÊôÓÚÕâ16384¸ö¹þÏ£²ÛµÄÆäÖÐµÄÒ»¸ö£¬
+¼¯ÈºÊ¹ÓÃcrc16£¨key£©%16384À´¼ÆËãkeyÊôÓÚÄÄ¸ö²Û£¬ÆäÖÐcrc16£¨key£©Óï¾äÓÃÓÚ¼ÆËã½¨keyµÄcrc16Ð£ÑéºÍ¡£
+ÒòÎª½«Ò»¸ö¹þÏ£²Û´ÓÒ»¸ö½ÚµãÒÆ¶¯µ½ÁíÒ»¸ö½Úµã²»»áÔì³É½Úµã×èÈû£¬ËùÒÔÎÞÂÛÊÇÌí¼Ó½Úµã»¹ÊÇÒÆ³ý´æÔÚ½ÚµãÓÖ
+»òÕß¸Ä±äÄ³¸ö½Úµã²»°üº¬µÄ¹þÏ£²ÛÊýÁ¿£¬¶¼²»»áÔì³É¼¯ÈºÏÂÏß¡£
+Redis¼¯Èº²»±£Ö¤Êý¾ÝµÄÇ¿Ò»ÖÂÐÔ£ºÔÚÌØ¶¨Ìõ¼þÏÂ£¬redis¼¯Èº¿ÉÄÜ»á¶ªÊ§ÒÑ¾­Ö´ÐÐ¹ýµÄÐ´ÃüÁî¡£
+Ê¹ÓÃÒì²½¸´ÖÆÊÇredis¼¯Èº¿ÉÄÜ»á¶ªÊ§Ð´ÃüÁîµÄÆäÖÐÒ»¸öÔ­Òò¡£
 
 
-¼¯ÈºÖÐµÄËùÓÐÐÅÏ¢£¬¶¼Í¨¹ý½ÚµãÖ®¼ä¶¨ÆÚµÄÊý¾Ý½»»»¶ø¸üÐÂ£¬Redis¿Í»§¶Ë¿ÉÒÔÔÙÈÎÒâÒ»¸öredisÊµÀý·¢³öÇëÇó£¬Èç¹ûËùÐèÊý¾Ý²»ÔÚ¸ÃÊµÀýÖÐ£¬Í¨¹ýÖØ¶¨ÏòÃüÁîÒýµ¼¿Í»§¶Ë
-·ÃÎÊ ËùÐèÒªµÄÊµÀý¡£
+¼¯ÈºÖÐµÄËùÓÐÐÅÏ¢£¬¶¼Í¨¹ý½ÚµãÖ®¼ä¶¨ÆÚµÄÊý¾Ý½»»»¶ø¸üÐÂ£¬Redis¿Í»§¶Ë¿ÉÒÔÔÙÈÎÒâÒ»¸öredisÊµÀý·¢³öÇëÇó£¬Èç¹ûËùÐèÊý¾Ý²»ÔÚ¸ÃÊµÀýÖÐ£¬
+Í¨¹ýÖØ¶¨ÏòÃüÁîÒýµ¼¿Í»§¶Ë·ÃÎÊ ËùÐèÒªµÄÊµÀý¡£
 
 ÊµÏÖÊý¾Ý·ÖÆ¬(¼¯Èº)·½Ê½´óÖÂÓÐÈýÖÖ£º 
 1£©¿Í»§¶ËÊµÏÖÊý¾Ý·ÖÆ¬
@@ -29,9 +32,7 @@ Redis¼¯Èº²»±£Ö¤Êý¾ÝµÄÇ¿Ò»ÖÂÐÔ£ºÔÚÌØ¶¨Ìõ¼þÏÂ£¬redis¼¯Èº¿ÉÄÜ»á¶ªÊ§ÒÑ¾­Ö´ÐÐ¹ýµÄÐ´Ãü
 
 
 redis¹ýÆÚÉèÖÃ£º
-
 ¶¨ÆÚÉ¾³ý£º redisÄ¬ÈÏÊÇÃ¿¸ô100ms¾ÍËæ»úÒ»Ð©ÉèÖÃÁË¹ýÆÚÊ±¼äµÄkey¡£
-
 ¶èÐÔÉ¾³ý£º¶¨ÆÚÉ¾³ý¿ÉÄÜ»áºÜ¶à¹ýÆÚkeyµ½ÁËÊ±¼ä²¢Ã»ÓÐ±»É¾³ýµô¡£
 
 ReidsÄÚ´æÌÔÌ­»úÖÆ
@@ -47,18 +48,15 @@ ReidsÄÚ´æÌÔÌ­»úÖÆ
 
 
 
-»º´æÑ©±À£º»º´æÍ¬Ò»Ê±¼ä´óÃæ»ýµÄÊ§Ð§£¬ËùÒÔºóÃæµÄÇëÇó¶¼»áÂäµ½ Êý¾Ý¿âÉÏ£¬Ôì³ÉÊý¾Ý¿â¶ÌÊ±¼äÄÚ³ÐÊÜ´óÁ¿ÇëÇó¶ø±Àµô¡£
-
-»º´æ´©Í¸£º´óÁ¿ÇëÇóµÄkey¸ù±¾²»´æÔÚ»º´æÖÐ£¬µ¼ÖÂÇëÇóÖ±½Óµ½ÁËÊý¾Ý¿âÉÏ£¬¸ù±¾Ã»ÓÐ¾­¹ý»º´æÕâÒ»²ã¡£
-
-
 RedisÊý¾Ý´æ´¢½á¹¹£º
-redisµÄÄÚ²¿ÕûÌåµÄ´æ´¢½á¹¹¾ÍÊÇÒ»¸ö´óµÄhashmap,ÄÚ²¿ÊµÏÖµÄÊÇÊý×éÊµÏÖhash£¬³åÍ»Í¨¹ý¹ÒÁ´È¥ÊµÏÖ£¬È»ºóÃ¿¸ödictEntry¾ÍÊÇÒ»¸ökey/value¶ÔÏó¡£
+redisµÄÄÚ²¿ÕûÌåµÄ´æ´¢½á¹¹¾ÍÊÇÒ»¸ö´óµÄhashmap,ÄÚ²¿ÊµÏÖµÄÊÇÊý×éÊµÏÖhash£¬³åÍ»Í¨¹ý¹ÒÁ´È¥ÊµÏÖ£¬
+È»ºóÃ¿¸ödictEntry¾ÍÊÇÒ»¸ökey/value¶ÔÏó¡£
 DictEntyµÄkeyÖ¸Ïòset key valueÃüÁîÖÐµÄkey¶ÔÓ¦µÄ¶ÔÏó£¬dictEntryµÄvÖ¸Ïòset key value¶ÔÓ¦µÄ¶ÔÏó¡£
-dictEntryÄÚ²¿´æ´¢µÄkeyºÍv±äÁ¿£¬Í¬Ê±°üº¬Ò»¸ödictEntryµÄnextÖ¸ÕëÁ´½ÓÂäÈëÍ¬Ò»¸öhashÍ°µÄ¶ÔÏó¡£dictEntryµ±ÖÐµÄkeyºÍvµÄÖ¸ÕëÖ¸ÏòµÄÊÇredisObject¡£
+dictEntryÄÚ²¿´æ´¢µÄkeyºÍv±äÁ¿£¬Í¬Ê±°üº¬Ò»¸ödictEntryµÄnextÖ¸ÕëÁ´½ÓÂäÈëÍ¬Ò»¸öhashÍ°µÄ¶ÔÏó¡£
+dictEntryµ±ÖÐµÄkeyºÍvµÄÖ¸ÕëÖ¸ÏòµÄÊÇredisObject¡£
 
-
-
+redisËøÏà¹ØÐ´µÄÌØ±ðÔÞµÄÒ»ÆªÎÄÕÂ
+https://blog.csdn.net/qq_39035267/article/details/129236671
 
 
 
@@ -67,13 +65,14 @@ dictEntryÄÚ²¿´æ´¢µÄkeyºÍv±äÁ¿£¬Í¬Ê±°üº¬Ò»¸ödictEntryµÄnextÖ¸ÕëÁ´½ÓÂäÈëÍ¬Ò»¸öhash
 
 ³Ö¾Ã»¯»úÖÆ£º
 
-RDB:¿ìÕÕ  redis¿ÉÒÔÍ¨¹ý´´½¨¿ìÕÕÀ´»ñÈ¡´æ´¢ÔÚÄÚ´æÀïµÄÊý¾ÝÔÚÄ³¸öÊ±¼äµãÉÏµÄ¸±±¾¡£Redis´´½¨¿ìÕÕÖ®ºó£¬¿ÉÒÔ¶Ô¿ìÕÕ½øÐÐ±¸·Ý£¬¿ÉÒÔ½«¿ìÕÕ¸´ÖÆµ½
-ÆäËû·þÎñÆ÷´Ó¶ø´´½¨¾ßÓÐÏàÍ¬Êý¾ÝµÄ·þÎñÆ÷¸±±¾£¨RedisÖ÷´Ó½á¹¹£¬Ö÷ÒªÓÃÀ´Ìá¸ßreidsµÄÐÔÄÜ£¬¶ÁÐ´·Ö¿ªÊ²Ã´µÄ£©£¬»¹¿ÉÒÔ½«¿ìÕÕÁôÔÚÔ­µØÒÔ±ãÖØÆô·þÎñ 
-µÄÊ±ºòÓÃ¡£
+RDB:¿ìÕÕ  redis¿ÉÒÔÍ¨¹ý´´½¨¿ìÕÕÀ´»ñÈ¡´æ´¢ÔÚÄÚ´æÀïµÄÊý¾ÝÔÚÄ³¸öÊ±¼äµãÉÏµÄ¸±±¾¡£
+Redis´´½¨¿ìÕÕÖ®ºó£¬¿ÉÒÔ¶Ô¿ìÕÕ½øÐÐ±¸·Ý£¬¿ÉÒÔ½«¿ìÕÕ¸´ÖÆµ½ÆäËû·þÎñÆ÷´Ó¶ø´´½¨¾ßÓÐÏàÍ¬Êý¾ÝµÄ·þÎñÆ÷¸±±¾\
+£¨RedisÖ÷´Ó½á¹¹£¬Ö÷ÒªÓÃÀ´Ìá¸ßreidsµÄÐÔÄÜ£¬¶ÁÐ´·Ö¿ªÊ²Ã´µÄ£©£¬»¹¿ÉÒÔ½«¿ìÕÕÁôÔÚÔ­µØÒÔ±ãÖØÆô·þÎñµÄÊ±ºòÓÃ¡£
 ÓÅµã£º
 1£ºRDBÊÇÒ»¸ö·Ç³£½ô´ÕµÄÎÄ¼þ£¬Ëü±£´æÁËReidsÔÚÄ³¸öÊ±¼äµãÉÏµÄÊý¾Ý¼¯¡£
 2£ºRDB·Ç³£ÊÊÓÃÓÚÔÖÄÑ»Ö¸´£¬ËüÖ»ÓÐÒ»¸öÎÄ¼þ²¢ÇÒÄÚÈÝ¶¼·Ç³£½ô´Õ£¬¿ÉÒÔ£¨¼ÓÃÜºó£©½«Ëü´«ËÍµ½±ðµÄÊý¾ÝÖÐÐÄ
-3£ºRDB¿ÉÒÔ×î´óRedisµÄÐÔÄÜ£º¸¸½ø³ÌÔÚ±£´æRDBÎÄ¼þÊ±Î¨Ò»Òª×öµÄ¾ÍÊÇfork³öÒ»¸ö×Ó½ø³Ì£¬È»ºó½«Õâ¸ö×Ó½ø³Ì¾Í»á´¦Àí½ÓÏÂÀ´µÄËùÓÐ±£´æ¹¤×÷ £¬¸¸½ø³ÌÎÞÐèÖ´ÐÐÈÎºÎ´ÅÅÌI/O²Ù×÷¡£
+3£ºRDB¿ÉÒÔ×î´óRedisµÄÐÔÄÜ£º¸¸½ø³ÌÔÚ±£´æRDBÎÄ¼þÊ±Î¨Ò»Òª×öµÄ¾ÍÊÇfork³öÒ»¸ö×Ó½ø³Ì£¬È»ºó½«Õâ¸ö×Ó½ø³Ì¾Í»á´¦Àí½ÓÏÂÀ´µÄËùÓÐ±£´æ¹¤×÷ £¬
+¸¸½ø³ÌÎÞÐèÖ´ÐÐÈÎºÎ´ÅÅÌI/O²Ù×÷¡£
 4£º»Ö¸´´óÊý¾Ý¼¯µÄÊ±ºòËÙ¶È¿ì¡£
 È±µã£º
 1£ºÈç¹ûÄãÐèÒª¾¡Á¿±ÜÃâÔÚ·þÎñÆ÷¹ÊÕÏÊ±¶ªÊ§Êý¾Ý£¬ÄÇÃ´ RDB ²»ÊÊºÏÄã¡£ ËäÈ» Redis ÔÊÐíÄãÉèÖÃ²»Í¬µÄ±£´æµã£¨save point£©À´¿ØÖÆ±£´æ RDB ÎÄ¼þµÄÆµÂÊ£¬
@@ -89,6 +88,11 @@ RDB:¿ìÕÕ  redis¿ÉÒÔÍ¨¹ý´´½¨¿ìÕÕÀ´»ñÈ¡´æ´¢ÔÚÄÚ´æÀïµÄÊý¾ÝÔÚÄ³¸öÊ±¼äµãÉÏµÄ¸±±¾¡£Red
 AOF:Ö»×·¼ÓÎÄ¼þ  Óë¿ìÕÕ³Ö¾Ã»¯Ïà±È£¬AOF³Ö¾Ã»¯µÄÊµÊ±ÐÔ¸üºÃ£¬Òò´ËÒÑ³ÉÎªÖ÷Á÷µÄ³Ö¾Ã»¯·½°¸£¬¿ªÆôAOF³Ö¾Ã»¯ºóÃ¿Ö´ÐÐÒ»Ìõ»á¸ü¸ÄredisÖÐµÄÊý¾ÝµÄÃüÁî
 £¬redis¾Í»á½«¸ÃÃüÁîÐ´ÈëÓ²ÅÌÖÐµÄaofÎÄ¼þ£¬AofÎÄ¼þµÄ±£´æÎ»ÖÃºÍrdbµÄÎ»ÖÃÏàÍ¬£¬¶¼ÊÇdir²ÎÊýÅäÖÃµÄ£¬Ä¬ÈÏÎÄ¼þÃûÊ±appendonly.aof¡£
 
+
+Ð´»Ø²ßÂÔ£º£¨aofÎÄ¼þµÄÄÚ´æ»º³åÈ¥£©
+1,always
+2,no  ²Ù×÷ÏµÍ³
+3£¬everysec  Ã¿Ãë £¨å´»úÊ±¶ªÆúÇ°Ò»ÃëÊý¾Ý£©
 ÓÅµã£º
 1£ºÊ¹ÓÃ AOF ³Ö¾Ã»¯»áÈÃ Redis ±äµÃ·Ç³£ÄÍ¾Ã£¨much more durable£©£ºÄã¿ÉÒÔÉèÖÃ²»Í¬µÄ fsync ²ßÂÔ£¬±ÈÈçÎÞ fsync £¬Ã¿ÃëÖÓÒ»´Î fsync £¬
 »òÕßÃ¿´ÎÖ´ÐÐÐ´ÈëÃüÁîÊ± fsync ¡£ AOF µÄÄ¬ÈÏ²ßÂÔÎªÃ¿ÃëÖÓ fsync Ò»´Î£¬ÔÚÕâÖÖÅäÖÃÏÂ£¬Redis ÈÔÈ»¿ÉÒÔ±£³ÖÁ¼ºÃµÄÐÔÄÜ£¬²¢ÇÒ¾ÍËã·¢Éú¹ÊÕÏÍ£»ú£¬
@@ -103,13 +107,14 @@ AOF:Ö»×·¼ÓÎÄ¼þ  Óë¿ìÕÕ³Ö¾Ã»¯Ïà±È£¬AOF³Ö¾Ã»¯µÄÊµÊ±ÐÔ¸üºÃ£¬Òò´ËÒÑ³ÉÎªÖ÷Á÷µÄ³Ö¾Ã»¯·
 4:AOF ÎÄ¼þÓÐÐòµØ±£´æÁË¶ÔÊý¾Ý¿âÖ´ÐÐµÄËùÓÐÐ´Èë²Ù×÷£¬ ÕâÐ©Ð´Èë²Ù×÷ÒÔ Redis Ð­ÒéµÄ¸ñÊ½±£´æ£¬ Òò´Ë AOF ÎÄ¼þµÄÄÚÈÝ·Ç³£ÈÝÒ×±»ÈË¶Á¶®£¬¶ÔÎÄ¼þ½øÐÐ
 ·ÖÎö£¨parse£©Ò²ºÜÇáËÉ¡£ µ¼³ö£¨export£© AOF ÎÄ¼þÒ²·Ç³£¼òµ¥£º ¾Ù¸öÀý×Ó£¬ Èç¹ûÄã²»Ð¡ÐÄÖ´ÐÐÁË FLUSHALL ÃüÁî£¬ µ«Ö»Òª AOF ÎÄ¼þÎ´±»ÖØÐ´£¬ ÄÇÃ´Ö»ÒªÍ£Ö¹·þÎñÆ÷£¬ ÒÆ³ý AOF ÎÄ¼þÄ©Î²µÄ FLUSHALL ÃüÁî£¬ ²¢ÖØÆô Redis £¬ ¾Í¿ÉÒÔ½«Êý¾Ý¼¯»Ö¸´µ½ FLUSHALL Ö´ÐÐÖ®Ç°µÄ×´Ì¬
 
+5£ºaofÖØÐ´»º³åÇø£¬aofÖØÐ´¿Í»§¶ËµÄÃüÁî¶¼Ð´µ½aofÖØÐ´»º³åÇøÖÐ¡£
 
 
 copy and write¼¼ÊõÊµÏÖÔ­Àí£º
 
-fork£¨£©Ö®ºó£¬kernel°Ñ¸¸½ø³ÌÖÐËùÓÐµÄÄÚ´æÒ³µÄÈ¨ÏÞ¶¼ÉèÎªread-only£¬È»ºó×Ó½ø³ÌµÄµØÖ·¿Õ¼äÖ¸Ïò¸¸½ø³Ì£¬µ±¸¸½ø³ÌÖ»¶ÁÄÚ´æÊ±£¬Ïà°²ÎÞÊÂ£¬µ±ÆäÖÐÄ³¸ö½ø³ÌÐ´ÄÚ´æ
-Ê±£¬cpuÓ²¼þ¼ì²âµ½ÄÚ´æÒ³ÊÇread-onlyµÄ£¬ÓÚÊÇ´¥·¢Ò³Òì³£ÖÐ¶Ï£¬ÏÝÈëkernelµÄÒ»¸öÖÐ¶ÏÀý³É£¬ÖÐ¶ÏÀý³ÌÖÐ£¬kernel¾Í»á°Ñ´¥·¢µÄÒì³£¸´ÖÆÒ»·Ý£¬ÓÚÊÇ¸¸×Ó½ø³Ì
-¸÷×Ô³ÖÓÐ¶ÀÁ¢µÄÒ»·Ý¡£
+fork£¨£©Ö®ºó£¬kernel°Ñ¸¸½ø³ÌÖÐËùÓÐµÄÄÚ´æÒ³µÄÈ¨ÏÞ¶¼ÉèÎªread-only£¬È»ºó×Ó½ø³ÌµÄµØÖ·¿Õ¼äÖ¸Ïò¸¸½ø³Ì£¬µ±¸¸½ø³ÌÖ»¶ÁÄÚ´æÊ±£¬Ïà°²ÎÞÊÂ£¬
+µ±ÆäÖÐÄ³¸ö½ø³ÌÐ´ÄÚ´æÊ±£¬cpuÓ²¼þ¼ì²âµ½ÄÚ´æÒ³ÊÇread-onlyµÄ£¬ÓÚÊÇ´¥·¢Ò³Òì³£ÖÐ¶Ï£¬ÏÝÈëkernelµÄÒ»¸öÖÐ¶ÏÀý³É£¬ÖÐ¶ÏÀý³ÌÖÐ£¬
+kernel¾Í»á°Ñ´¥·¢µÄÒì³£¸´ÖÆÒ»·Ý£¬ÓÚÊÇ¸¸×Ó½ø³Ì¸÷×Ô³ÖÓÐ¶ÀÁ¢µÄÒ»·Ý¡£
 
 ÓÅµã£º
 1£ºcow¼¼Êõ¿É¼õÉÙ·ÖÅäºÍ¸´ÖÆ×ÊÔ´Ê±´øÀ´µÄË²¼äÑÓÊ±¡£
@@ -124,8 +129,9 @@ cowµÄ¼¼ÊõÖ»ÄÜ±£Ö¤Êý¾Ý×îÖÕÒ»ÖÂ£¬²»ÄÜ±£Ö¤Êý¾ÝµÄÊµÊ±Ò»ÖÂÐÔ¡£Èç¹ûÄãÏ£ÍûÐ´ÈëµÄÊý¾ÝÂíÉ
 
 
 ºÍ»º´æ´©Í¸Ç£Á¬ÔÚÒ»ÆðµÄ²¼Â¡¹ýÂËÆ÷
-Ô­Àí£ºµ±Ò»¸öÔªËØ±»¼ÓÈë¼¯ºÏÊ±£¬Í¨¹ýK¸öÉ¢ÁÐº¯Êý½«Õâ¸öÔªËØÓ³Éä³ÉÒ»¸öÎ»Êý×éµÄK¸öµã£¬°ÑËûÃÇÉèÖÃÎª1,¼ìË÷µÄÊ±ºòÈç¹û·¢ÏÖÊÇ0¾Í´æÔÚ£¬1¾ÍÊÇ²»´æÔÚ¡£
-È±µãÊÇ£º´æÔÚÎóÅÐ£¬É¾³ýÀ§ÄÑ
+Ô­Àí£ºµ±Ò»¸öÔªËØ±»¼ÓÈë¼¯ºÏÊ±£¬Í¨¹ýK¸öÉ¢ÁÐº¯Êý½«Õâ¸öÔªËØÓ³Éä³ÉÒ»¸öÎ»Êý×éµÄK¸öµã£¬°ÑËûÃÇÉèÖÃÎª1,
+¼ìË÷µÄÊ±ºòÈç¹û·¢ÏÖÊÇ0¾Í´æÔÚ£¬1¾ÍÊÇ²»´æÔÚ¡£
+È±µãÊÇ£º´æÔÚÎóÅÐ£¬É¾³ýÀ§ÄÑ.ÎóÅÐ´æÔÚ£¬¿ÉÅÐ¶ÏÒ»¶¨²»´æÔÚ
 
 
 RedisÄÚ´æ½á¹¹
@@ -138,14 +144,77 @@ string£ºreidsµÄ×Ö·û´®½Ð×Åsds£¬¼òµ¥¶¯Ì¬×Ö·û´®£¬ËüµÄ½á¹¹ÊÇÒ»¸ö´ø³¤¶ÈÐÅÏ¢µÄ×Ö½ÚÊý×é
 4£º¶þ½øÖÆ°²È«
 5£º¼æÈÝ²¿·Öc×Ö·û´®º¯Êý
 
-
-
-
 ¶Å¾ø»º³åÇøÒç³ö£ºµ±ÎÒÃÇÐèÒª¶ÔÒ»¸ösds½øÐÐÐÞ¸ÄµÄÊ±ºò£¬redis»áÔÚÖ´ÐÐÆ´½Ó²Ù×÷Ö®Ç°£¬Ô¤ÏÈ¼ì²é¸ø¶¨SDS¿Õ¼äÊÇ·ñ×ã¹»£¬Èç¹û²»¹»£¬»áÀ©ÕÅsdsµÄ¿Õ¼ä£¬È»ºóÔÙÖ´ÐÐÆ´½Ó²Ù×÷¡£
 
 
 
+raft Ëã·¨
+¼¯Èº16384 ¸ö²Û
+1¡¢hashÈ¡Ä£
+2¡¢Ò»ÖÂÐÔhashËã·¨£¨È±µãÊý¾ÝÇãÐ±£©
 
+Ò»¡¢É¾³ý²ßÂÔ
+É¾³ý²ßÂÔ¾ÍÊÇÕë¶ÔÒÑ¹ýÆÚÊý¾ÝµÄ´¦Àí²ßÂÔ¡£
+
+Õë¶Ô¹ýÆÚÊý¾ÝÒª½øÐÐÉ¾³ýµÄÊ±ºò¶¼ÓÐÄÄÐ©É¾³ý²ßÂÔÄØ£¿
+
+1.¶¨Ê±É¾³ý
+2.¶èÐÔÉ¾³ý
+3.¶¨ÆÚÉ¾³ý
+ 1¡¢Á¢¼´É¾³ý
+
+µ±keyÉèÖÃÓÐ¹ýÆÚÊ±¼ä£¬ÇÒ¹ýÆÚÊ±¼äµ½´ïÊ±£¬ÓÉ¶¨Ê±Æ÷ÈÎÎñÁ¢¼´Ö´ÐÐ¶Ô¼üµÄÉ¾³ý²Ù×÷¡£
+
+ÓÅµã£º½ÚÔ¼ÄÚ´æ£¬µ½Ê±¾ÍÉ¾³ý£¬¿ìËÙÊÍ·Åµô²»±ØÒªµÄÄÚ´æÕ¼ÓÃ
+È±µã£ºCPUÑ¹Á¦ºÜ´ó£¬ÎÞÂÛCPU´ËÊ±¸ºÔØÁ¿¶à¸ß£¬¾ùÕ¼ÓÃCPU£¬»áÓ°Ïìredis·þÎñÆ÷ÏìÓ¦Ê±¼äºÍÖ¸ÁîÍÌÍÂÁ¿
+×Ü½á£ºÓÃ´¦ÀíÆ÷ÐÔÄÜ»»È¡´æ´¢¿Õ¼ä£¨ÄÃÊ±¼ä»»¿Õ¼ä£©
+ 2¡¢¶èÐÔÉ¾³ý
+
+Êý¾Ýµ½´ï¹ýÆÚÊ±¼ä£¬²»×ö´¦Àí¡£µÈÏÂ´Î·ÃÎÊ¸ÃÊý¾ÝÊ±£¬ÅÐ¶Ï
+1. Èç¹ûÎ´¹ýÆÚ£¬Ôò·µ»ØÊý¾Ý
+2. ·¢ÏÖÒÑ¹ýÆÚ£¬É¾³ý£¬·µ»Ø²»´æÔÚ
+
+ÓÅµã£º½ÚÔ¼CPUÐÔÄÜ£¬·¢ÏÖ±ØÐëÉ¾³ýµÄÊ±ºò²ÅÉ¾³ý
+È±µã£ºÄÚ´æÑ¹Á¦ºÜ´ó£¬³öÏÖ³¤ÆÚÕ¼ÓÃÄÚ´æµÄÊý¾Ý
+×Ü½á£ºÓÃ´æ´¢¿Õ¼ä»»È¡´¦ÀíÆ÷ÐÔÄÜ£¨ÄÃ¿Õ¼ä»»Ê±¼ä£©
+3¡¢¶¨ÆÚÉ¾³ý
+RedisÆô¶¯·þÎñÆ÷³õÊ¼»¯Ê±£¬¶ÁÈ¡ÅäÖÃserver.hzµÄÖµ£¬Ä¬ÈÏÎª10
+Ã¿ÃëÖÓÖ´ÐÐserver.hz´ÎserverCron()-------->databasesCron()--------->activeExpireCycle()
+activeExpireCycle()¶ÔÃ¿¸öredis¿âÖðÒ»½øÐÐ¼ì²â£¬Ã¿´ÎÖ´ÐÐºÄÊ±£º250ms/server.hz
+¶ÔÄ³¸ö¿â¼ì²âÊ±£¬Ëæ»úÌôÑ¡W¸ökey¼ì²â
+        £¨1£©Èç¹ûkey³¬Ê±£¬É¾³ýkey
+        £¨2£©Èç¹ûÒ»ÂÖÖÐÉ¾³ýµÄkeyµÄÊýÁ¿>W*25%£¬Ñ­»·¸Ã¹ý³Ì
+        £¨3£©Èç¹ûÒ»ÂÖÖÐÉ¾³ýµÄkeyµÄÊýÁ¿¡ÜW25%£¬¼ì²éÏÂÒ»¸ö¿â£¬ÔÚ0-15¿âÖ®¼äÑ­»·
+           WÈ¡Öµ=ACTIVEEXPIRECYCLE_LOOKUPSPERLOOPÊôÐÔÖµ
+
+¶þ¡¢ÌÔÌ­²ßÂÔ
+µ±ÐÂÊý¾Ý½øÈëredisÊ±£¬Èç¹ûÄÚ´æ²»×ã£¬¾Í»áÒý·¢ÌÔÌ­»úÖÆ¡£
+Ó°ÏìÊý¾ÝÌÔÌ­µÄÏà¹ØÅäÖÃÈçÏÂ£º
+1£º×î´ó¿ÉÊ¹ÓÃÄÚ´æ£¬¼´Õ¼ÓÃÎïÀíÄÚ´æµÄ±ÈÀý£¬Ä¬ÈÏÖµÎª0£¬±íÊ¾²»ÏÞÖÆ¡£Éú²ú»·¾³ÖÐ¸ù¾ÝÐèÇóÉè¶¨£¬Í¨³£ÉèÖÃÔÚ50%ÒÔÉÏ
+properties maxmemory ?mb
+2£ºÃ¿´ÎÑ¡È¡´ýÉ¾³ýÊý¾ÝµÄ¸öÊý£¬²ÉÓÃËæ»ú»ñÈ¡Êý¾ÝµÄ·½Ê½×÷Îª´ý¼ì²âÉ¾³ýÊý¾Ý
+properties maxmemory-samples count
+
+3£º¶ÔÊý¾Ý½øÐÐÉ¾³ýµÄÑ¡Ôñ²ßÂÔ
+properties maxmemory-policy policy
+
+Êý¾ÝÌÔÌ­µÄ²ßÂÔÒ»¹²ÓÐ3ÖÖ£º
+1¡¢¼ì²âÒ×Ê§Êý¾Ý£¨ÉèÖÃÁË¹ýÆÚÊ±¼äµÄÊý¾Ý£©
+
+volatile-lru£ºÌôÑ¡×î½ü×îÉÙÊ¹ÓÃµÄÊý¾ÝÌÔÌ­
+volatile-lfu£ºÌôÑ¡×î½üÊ¹ÓÃ´ÎÊý×îÉÙµÄÊý¾ÝÌÔÌ­
+volatile-ttl£ºÌôÑ¡½«Òª¹ýÆÚµÄÊý¾ÝÌÔÌ­
+volatile-random£ºÈÎÒâÑ¡ÔñÊý¾ÝÌÔÌ­
+
+2¡¢¼ì²âÈ«¿âÊý¾Ý
+
+allkeys-lru£ºÌôÑ¡×î½ü×îÉÙÊ¹ÓÃµÄÊý¾ÝÌÔÌ­
+allkeLyRs-lfu£º£ºÌôÑ¡×î½üÊ¹ÓÃ´ÎÊý×îÉÙµÄÊý¾ÝÌÔÌ­
+allkeys-random£ºÈÎÒâÑ¡ÔñÊý¾ÝÌÔÌ­£¬Ïàµ±ÓÚËæ»ú
+
+3¡¢·ÅÆúÊý¾ÝÇýÖð
+
+no-enviction£¨ÇýÖð£©£º½ûÖ¹ÇýÖðÊý¾Ý(redis4.0ÖÐÄ¬ÈÏ²ßÂÔ)£¬»áÒý·¢OOM(Out Of Memory)
 
 
 RedisÁ´±íÌØÐÔ£º
@@ -153,7 +222,6 @@ RedisÁ´±íÌØÐÔ£º
 2£ºÎÞ»·£º±íÍ·½ÚµãµÄprevÖ¸ÕëºÍ±íÎ²½ÚµãµÄnextÖ¸Õë¶¼Ö¸Ïònull£¬¶ÔÁ´±íµÄ·ÃÎÊ¶¼ÊÇÒÔnull½áÊø¡£
 3£º´øÁ´±í³¤¶È¼ÆÊýÆ÷£ºÍ¨¹ýlenÊôÐÔ»ñÈ¡Á´±í³¤¶ÈµÄÊ±¼ä¸´ÔÓ¶ÈÎª£¨1£©
 4£º¶àÌ¬£ºÁ´±í½ÚµãÊ¹ÓÃvoid*Ö¸ÕëÀ´±£´æ½ÚµãÖµ£¬¿ÉÒÔ±£´æ¸÷ÖÖ²»Í¬ÀàÐÍµÄÖµ¡£
-
 ÖØµã£º
 1£ºÁ´±í±»¹ã·º ÓÃÓÚÊµÏÖredisµÄ¸÷ÖÖ¹¦ÄÜ£¬±ÈÈçÁÐ±í¼ü£¬·¢²¼ºÍ¶©ÔÄ£¬Âý²éÑ¯£¬¼àÊÓÆ÷
 2£ºÃ¿¸öÁ´±íµÄ½Úµã¶¼ÓÐÒ»¸ölistNode½á¹¹À´±íÊ¾£¬Ã¿¸ö½Úµã¶¼ÓÐÒ»¸öÖ¸ÏòÇ°ÖÃ½ÚµãºÍºï×Ó½ÚµãµÄÖ¸Õë£¬ËùÒÔredisµÄÁ´±íÊµÏÖË«¶ËÁ´±í
@@ -162,24 +230,32 @@ RedisÁ´±íÌØÐÔ£º
 5£ºÍ¨¹ýÁ´±íÉèÖÃ²»Í¬ÀàÐÍÌØ¶¨º¯Êý£¬redisµÄÁ´±í¿ÉÒÔÓÃÀ´±£´æ²»Í¬ÀàÐÍµÄÖµ¡£
 
 
+ÄÚ´æËéÆ¬ÎÊÌâ£¿
+info memory
 
 
-
-×Öµä£ºÓÖ³ÆÎª·ûºÅ±í»òÕß¹ØÁªÊý×é»òÓ³Éä£¬ÊÇÒ»ÖÖÓÃÓÚ±£´æ¼üÖµ¶ÔµÄ³éÏóÊý¾Ý½á¹¹£¬×ÖµäÖÐµÄÃ¿Ò»¸ökey¶¼ÊÇÎ¨Ò»µÄ£¬Í¨¹ýkey¿ÉÒÔ¶ÔÖµ½øÐÐ²éÕÒ»òÕßÐÞ¸Ä¡£
-µ×²ãÓÃµÄ¹þÏ£±í×÷Îªµ×²ãÊµÏÖ¡£
-MurmurHash Ëã·¨×î³õÓÉ Austin Appleby ÓÚ 2008 Äê·¢Ã÷£¬ ÕâÖÖËã·¨µÄÓÅµãÔÚÓÚ£¬ ¼´Ê¹ÊäÈëµÄ¼üÊÇÓÐ¹æÂÉµÄ£¬ Ëã·¨ÈÔÄÜ¸ø³öÒ»¸öºÜºÃµÄËæ»ú·Ö²¼ÐÔ£¬
- ²¢ÇÒËã·¨µÄ¼ÆËãËÙ¶ÈÒ²·Ç³£¿ì¡£
-½â¾ö¼ü³åÍ»£ºÁ´µØÖ··¨À´½â¾ö¼ü³åÍ»£ºÃ¿¸ö¹þÏ£±í¶¼ÓÐÒ»¸önextÖ¸Õë£¬¶à¸öhash±í¿ÉÒÔÓÃnextÖ¸Õë¹¹³ÉÒ»¸öµ¥ÏòÁ´±í£¬±»·ÖÅäµ½Ò»¸öË÷ÒýÉÏµÄ¶à¸ö½Úµã¿ÉÒÔÓÃÕâ¸ö
-µ¥ÏòÁ´±íÁ´½ÓÆðÀ´½â¾ö¼ü³åÍ»£¨ÀàËÆÓÚhashmap£©£¬ÒòÎªdictEntry½Úµã×é³ÉµÄÁ´±íÃ»ÓÐÖ¸ÏòÁ´±í±íÎ»µÄÖ¸Õë£¬ËùÒÔÎªÁËËÙ¶È¿¼ÂÇ£¬³ÌÐò×ÜÊÇ½« ÐÂ½Úµã¼Óµ½Á´±íµÄ±íÍ·Î»ÖÃ
+×Öµä£ºÓÖ³ÆÎª·ûºÅ±í»òÕß¹ØÁªÊý×é»òÓ³Éä£¬ÊÇÒ»ÖÖÓÃÓÚ±£´æ¼üÖµ¶ÔµÄ³éÏóÊý¾Ý½á¹¹£¬×ÖµäÖÐµÄÃ¿Ò»¸ökey¶¼ÊÇÎ¨Ò»µÄ£¬Í¨¹ýkey¿ÉÒÔ¶ÔÖµ½øÐÐ
+²éÕÒ»òÕßÐÞ¸Ä¡£µ×²ãÓÃµÄ¹þÏ£±í×÷Îªµ×²ãÊµÏÖ¡£
+MurmurHash Ëã·¨×î³õÓÉ Austin Appleby ÓÚ 2008 Äê·¢Ã÷£¬ ÕâÖÖËã·¨µÄÓÅµãÔÚÓÚ£¬ ¼´Ê¹ÊäÈëµÄ¼üÊÇÓÐ¹æÂÉµÄ£¬
+ Ëã·¨ÈÔÄÜ¸ø³öÒ»¸öºÜºÃµÄËæ»ú·Ö²¼ÐÔ£¬²¢ÇÒËã·¨µÄ¼ÆËãËÙ¶ÈÒ²·Ç³£¿ì¡£
+½â¾ö¼ü³åÍ»£ºÁ´µØÖ··¨À´½â¾ö¼ü³åÍ»£ºÃ¿¸ö¹þÏ£±í¶¼ÓÐÒ»¸önextÖ¸Õë£¬¶à¸öhash±í¿ÉÒÔÓÃnextÖ¸Õë¹¹³ÉÒ»¸öµ¥ÏòÁ´±í£¬
+±»·ÖÅäµ½Ò»¸öË÷ÒýÉÏµÄ¶à¸ö½Úµã¿ÉÒÔÓÃÕâ¸ö
+µ¥ÏòÁ´±íÁ´½ÓÆðÀ´½â¾ö¼ü³åÍ»£¨ÀàËÆÓÚhashmap£©£¬ÒòÎªdictEntry½Úµã×é³ÉµÄÁ´±íÃ»ÓÐÖ¸ÏòÁ´±í±íÎ»µÄÖ¸Õë£¬ËùÒÔÎªÁËËÙ¶È¿¼ÂÇ£¬
+³ÌÐò×ÜÊÇ½« ÐÂ½Úµã¼Óµ½Á´±íµÄ±íÍ·Î»ÖÃ
 ¸´ÔÓ¶ÈÎªo£¨1£©£¬ÅÅÔÚÆäËûµÄÒÑÓÐ½ÚµãµÄÇ°£»
 rehash£¨ÖØÐÂÉ¢ÁÐ£©
 
+
+1¡¢»º´æÔ¤ÈÈ
+2¡¢»º´æÑ©±À£º´óÃæ»ýkeyÊ§Ð§¡£ Ëæ»úÊ±¼ä£¬¶à»º´æ£¬·þÎñ½µ¼¶
+3¡¢»º´æ´©Í¸:redisºÍÊý¾Ý¿â¶¼Ã»ÓÐ Ã¿´Î¶¼´ïµ½Êý¾Ý¿âÉÏ¡£½â¾ö·½Ê½£º¿Õ¶ÔÏó£¬²¼Â¡¹ýÂËÆ÷
+4¡¢»º´æ»÷´©:ÈÈµã£¨´óqps£©keyÍ»È»Ê§Ð§¡£Ë«¼ì¼ÓËø£¬Ë«»º´æ»úÖÆ£¨±£´æµÄ¹ýÆÚÊ±¼ä²»Ò»Ñù£©
 
 
 
 
 ÌøÔ¾±í£ºÊÇÒ»ÖÖÓÐÐòµÄÊý¾Ý½á¹¹£¬ËüÍ¨¹ýÃ¿¸ö½ÚµãÖÐÎ¬³Ö¶à¸öÖ¸ÏòÆäËü½ÚµãµÄÖ¸Õë£¬´Ó¶øµ½¿ìËÙ·ÃÎÊ½ÚµãµÄÄ¿µÄ¡£
-1£ºÓÐºÜ¶à²ã½á¹¹×é³É
+1£ºÓÐºÜ¶à²ã½á¹¹×é³É£¨l1-l32£©
 2£ºÃ¿Ò»²ã¶¼ÊÇÒ»¸öÓÐÐòµÄÁ´±í£¬ÅÅÁÐË³ÐòÎªÓÉ¸ß²ãµ½µ×²ã£¬¶¼ÖÁÉÙ°üº¬Á½¸öÁ´±í½Úµã£¬·Ö±ðÊÇÇ°ÃæµÄhead½ÚµãºÍºóÃæµÄnil½Úµã¡£
 3£º×îµ×²ãµÄÁ´±í°üº¬ÁËËùÓÐµÄÔªËØ
 4£ºÈç¹ûÒ»¸öÔªËØ³öÏÖÔÚÄ³Ò»²ãµÄÁ´±íÖÐ£¬ÄÇÃ´ÔÚ¸Ã²ãÖ®ÏÂµÄÁ´±íÒ²È«¶¼»á³öÏÖ£¨ÉÏÒ»²ãÔªËØÊÇµ±Ç°²ãÔªËØµÄ×Ó¼¯£©
@@ -192,7 +268,7 @@ rehash£¨ÖØÐÂÉ¢ÁÐ£©
 
 
 ÕûÊý¼¯ºÏ£ºredisÓÃÓÚ±£´æÕûÊýÖµµÄ¼¯ºÏ³éÏóÊý¾ÝÀàÐÍ£¬Ëü¿ÉÒÔ±£Ö¤ÀàÐÍ Îªint16_t£¬int32_t»òÕßint64_tµÄÕûÊýÖµ£¬²¢ÇÒ±£Ö¤¼¯ºÏÖÐ²»»á³öÏÖÖØ¸´ÔªËØ¡£
-Éý¼¶£ºµ±ÎÒÃÇÐÂÔöµÄÔªËØÀàÐÍ±ÈÔ­¼¯ºÏÔ¬ÊõÀàÐÍµÄ³¤¶ÈÒª´óÊ±£¬ÐèÒª¶ÔÕûÊý¼¯ºÏ½øÐÐÉý¼¶£¬²ÅÄÜ½«ÐÂÔªËØ·ÅÈëÕûÊý¼¯ºÏÖÐ£¬
+Éý¼¶£ºµ±ÎÒÃÇÐÂÔöµÄÔªËØÀàÐÍ±ÈÔ­¼¯ºÏÔªÊõÀàÐÍµÄ³¤¶ÈÒª´óÊ±£¬ÐèÒª¶ÔÕûÊý¼¯ºÏ½øÐÐÉý¼¶£¬²ÅÄÜ½«ÐÂÔªËØ·ÅÈëÕûÊý¼¯ºÏÖÐ£¬
 1£º¸ù¾ÝÐÂÔªËØÀàÐÍ£¬À©Õ¹ÕûÊý¼¯ºÏµ×²ãÊý×éµÄ´óÐ¡£¬²¢ÎªÐÂÔªËØ·ÖÅä¿Õ¼ä¡£
 2£º½«µ×²ãÊý×éÏÖÓÐµÄËùÓÐÔªËØ¶¼×ª³ÉÓëÐÂÔªËØÏàÍ¬ÀàÐÍµÄÔªËØ£¬²¢½«×ª»»ºóµÄÔªËØ·Åµ½ÕýÈ·µÄÎ»ÖÃ£¬·ÅÖÃ¹ý³ÌÖÐ£¬Î¬³ÖÕû¸öÔªËØË³Ðò¶¼ÊÇÓÐÐòµÄ£¬
 3£º½«ÐÂÔªËØÌí¼Óµ½ÕûÊý¼¯ºÏÖÐ¡£
@@ -201,31 +277,86 @@ rehash£¨ÖØÐÂÉ¢ÁÐ£©
 
 
 Ñ¹ËõÁÐ±í£ºredisÎªÁË½ÚÊ¡ÄÚ´æ¶ø¿ª·¢µÄ£¬ÊÇÓÐÒ»ÏµÁÐÌØÊâ±àÂëµÄÁ¬ÐøÄÚ´æÄ£¿é×é³ÉµÄË³ÐòÐÍÊý¾Ý½á¹¹£¬Ò»µ©Ñ¹Ëõ±í¿ÉÒÔ°üº¬ÈÎÒâ¶à¸ö½Úµã£¬Ã¿¸ö½Úµã 
-¿ÉÒÔ±£´æÒ»¸öÖ±½ÓÊý×é»òÕßÒ»¸öÕûÊý¼¯¡£Ô­Àí£ºÑ¹ËõÁÐ±í²¢²»ÊÇ¶ÔÊý¾ÝÀûÓÃÄ³ÖÖËã·¨½øÐÐÑ¹Ëõ£¬¶øÊÇ½«Êý¾Ý°´ÕÕÒ»¶¨¹æÔò±àÂëÔÚÒ»¿éÁ¬ÐøµÄ ÄÚ´æÇøÓò£¬Ä¿µÄÊÇÎªÁË½ÚÊ¡ÄÚ´æ¡£
+¿ÉÒÔ±£´æÒ»¸öÖ±½ÓÊý×é»òÕßÒ»¸öÕûÊý¼¯¡£Ô­Àí£ºÑ¹ËõÁÐ±í²¢²»ÊÇ¶ÔÊý¾ÝÀûÓÃÄ³ÖÖËã·¨½øÐÐÑ¹Ëõ£¬¶øÊÇ½«Êý¾Ý°´ÕÕÒ»¶¨¹æÔò±àÂëÔÚÒ»¿éÁ¬ÐøµÄ ÄÚ´æÇøÓò£¬
+ Ä¿µÄÊÇÎªÁË½ÚÊ¡ÄÚ´æ¡£
+
+hashSet ÊÇÑ¹ËõÁÐ±íºÍÉ¢ÁÐ±í
 
 
+bigkeyµÄÎÊÌâ string10kbÄÚ ÆäËû ÔªËØ¸öÊý²»³¬¹ý5000£¿
+ÄÚ´æ²»¾ùÇ¨ÒÆÀ§ÄÑ
+1¡¢²é¿´ÄÚ´æ£ºmemory useage
+2¡¢scan É¨ÃèÃüÁîÌæ´úkeys* Õâ¸öÃüÁî
+3¡¢--bigkeys ²éÑ¯×î´óÕ¼ÓÃµÄ×Ö½Ú
+4¡¢unlink É¾³ý ½¥½øÊ½É¾³ý
+
+1¡¢sds¶¯Ì¬×Ö·û´®
+±àÂë£ºint, emtstr£¬raw
+embstr±àÂë½«´´½¨×Ö·û´®¶ÔÏóËùÐèÒªµÄÄÚ´æ·ÖÅä´ÎÊý´ÓrawµÄ2´Î½µÎª1´Î
+embstr×Ö·û´®¶ÔÏóÖ»ÐèÒªµ÷ÓÃÒ»´ÎÄÚ´æ ÊÍ·Åº¯Êý£¬¶ørawÔòµ÷ÓÃÁ½´ÎÄÚ´æÊÍ·Åº¯Êý
+±£´æÔÚÒ»¿éÁ¬ÐøµÄÄÚ´æÀï£¬embstr¶ÔÏóÊÇÖ»¶ÁµÄ£¬Èç¹ûÐÞ¸Ä¾Í»á±ä³Éraw¡£
+¶¯Ì¬×Ö·û´®ÓÅµã£º
+1£¬³£Êý¸´ÔÓ¶È»ñÈ¡×Ö·û´®³¤¶È¡£
+2£¬¶Å¾ø»º³åÇøÒç³ö¡£
+3£¬¼õÉÙÐÞ¸Ä×Ö·û´®³¤¶ÈÊ±ËùÐèµÄÄÚ´æÖØ·ÖÅä´ÎÊý (¿Õ¼äÔ¤·ÖÅä£¬¶èÐÔ¿Õ¼äÊÍ·Å)
+4£¬¶þ½øÖÆ°²È«¡£
+5£¬¼æÈÝ²¿·ÖC×Ö·û´®º¯Êý
+
+2¡¢Ë«ÏòÁ´±í listnode½á¹¹
+ÓÅµã£º
+Ë«¶Ë£ºÁ´±í¶¼ÓÐprevºÍnext
+ÎÞ»·£º±íÍ·µÄprevºÍ±íÎ»µÄnext¶¼Ö¸Ïònull
+´ø±íÍ·Ö¸ÕëºÍ±íÎ²Ö¸Õë
+´øÁ´±í³¤¶È¼ÆÊýÆ÷
+¶àÌ¬£ºÁ´±í½ÚµãÊ¹ÓÃvoid* Ö¸ÕëÀ´±£´æ½ÚµãÖµ£¬²¢ÇÒ¿ÉÒÔÍ¨¹ýlist½á¹¹µÄdup£¬free£¬matchÈý¸öÊôÐÔÎª½ÚµãÖµÉèÖÃÌØ¶¨º¯Êý£¬ËùÒÔÁ´±í
+¿ÉÒÔÓÃÀ´±£´æ¸÷ÖÖ²»Í¬µÄÖµ
+Ó¦ÓÃ³¡¾°£º ÁÐ±í¼ü£¬·¢²¼¶©ÔÄ£¬Âý²éÑ¯£¬¼àÊÓÆ÷
+
+3¡¢Ñ¹ËõÁÐ±í:Á¬Ëø¸üÐÂÏÖÏó
+Ñ¹ËõÁÐ±íÊÇÒ»ÖÖ½ÚÔ¼ÄÚ´æ¶ø¿ª·¢µÄË³ÐòÐÍÊý¾Ý½á¹¹£¬
+Á¬Ëø¸üÐÂÎÊÌâ
+
+4¡¢hash±í
+5¡¢Ìø±í
+Ó¦ÓÃ³¡¾°£ºÓÐÐò¼¯ºÏ£¬¼¯Èº½ÚµãÄÚ²¿Êý¾Ý½á¹¹
+½á¹¹£º zskiplist ºÍzskiplistNode  zskiplist°üº¬header£¬tail£¬level£¬length
+zskiplistNodeµ¥¶ÀµÄÌø±ä½Úµã£ºlevel²ã£¨Ç°½øÖ¸ÕëºÍ¿ç¶È£©£¬bwºóÍËÖ¸Õë£¬·ÖÖµ£¬³ÉÔ±¶ÔÏó
+ÖØµã£ºÃ¿¸öÌøÔ¾±íµÄ½Úµã¶¼ÊÇ1-32²ãµÄËæ»úÊý
+Í¬Ò»¸öÌøÔ¾±íÖÐ¶à¸ö½Úµã¿ÉÒÔ°üº¬ÏàÍ¬µÄ·ÖÖµ£¬µ«Ã¿¸ö½ÚµãµÄ³ÉÔ±¶ÔÏó±ØÐëÊÇÎ¨Ò»µÄ
+
+6¡¢ÕûÊý¼¯ºÏ
+µ±Ò»¸ö¼¯ºÏÖ»°üº¬ÕûÊýÖµÔ­Êô£¬²¢ÇÒÕâ¸ö¼¯ºÏµÄÔ­ÊôÊýÁ¿²»¶àÊ±£¬redis»áÊ¹ÓÃÕûÊý¼¯ºÏ×÷Îªµ×²ãÊµÏÖ¡£
+µ×²ãÊµÏÖ£º
+µ×²ãÊµÏÖÎªÊý×é£¬Õâ¸öÊý×éÒÔÓÐÐò£¬ÎÞ³é¹¤·òµÄ·½Ê½±£´æ£¬ÔÚÓÐÐèÒªÊ±£¬³ÌÐò»á¸ù¾ÝÐÂÌí¼ÓµÄÔ­ÊôÀàÐÍ¸Ä±äÕâ¸öÊý×éµÄÀàÐÍ¡£
+
+7¡¢¿ìËÙÁÐ±í
 
 
+8¡¢½ô´ÕÁÐ±í
+ÁÐ±í£¨list£©£º ziplist »òÕßlinkedlist
+ZSET:6 Ìø±í+Ñ¹ËõÁÐ±í £¨Ê¹ÓÃÑ¹ËõÁÐ±íÌõ¼þ ¼¯ºÏ³¤¶ÈÐ¡ÓÚ64 Ã¿¸öÔ­ÊôÐ¡ÓÚ64×Ö½Ú£©
+ 7 Ìø±í+½ô´ÕÁÐ±í
+hash£º6 Ñ¹ËõÁÐ±í £¨ziplist£©+hashtable  7½ô´ÕÁÐ±í+hashtable
+
+redisObject: ÀàÐÍ£¨×Ö·û´®£¬ÁÐ±í¶ÔÏó£¬¹þÏ£±í¡£¡££©£¬±àÂë£¬Ö¸Ïòµ×²ãÊµÏÖµÄÊý¾Ý½á¹¹ÀàÐÍµÄÖ¸Õë
+
+ÄÚ´æ»ØÊÕÊ¹ÓÃµÄÒýÓÃ¼ÆÊý£¬redisObj ÓÐÒ»¸örefcountÀàÐÍ
+¶ÔÏó¹²Ïí£¨¶à¸ö¼üÒýÓÃÍ¬Ò»¸öÖµ£¬ redisÖ»¶Ô°üº¬ÕûÊýÖµµÄ×Ö·û´®¶ÔÏó½øÐÐ¹²Ïí0-9999£©
+¶ÔÏó¿Õ×ªÊ±³¤£ºlru¼ÇÂ¼¶ÔÏó×îºóÒ»´Î±»³ÌÐò·ÃÎÊµÄÊ±¼ä£¨object idletime£©
 
 
+»ìºÏ³Ö¾Ã»¯£º
+rdb»Ö¸´Êý¾Ý¿ì£¬µ«ÊÇrdbÐ§ÂÊ²»ºÃ°ÑÎÕ
+1,µ±¿ªÆô»ìºÏ³Ö¾Ã»¯£¬ÔÚaofÖØÐ´ÈÕÖ¾Ê±£¬fork³öÀ´µÄÖØÐ´×Ó½ø³Ì»áÏÈ½«ÓëÖ÷½ø³Ì¹²ÏíµÄÄÚ´æÊý¾Ý£¬ÒÔrdbµÄ·½Ê½Ð´Èëµ½aofÎÄ¼þÖÐ
+2£¬È»ºóÖ÷½ø³Ì´¦ÀíµÄ²Ù×÷ÃüÁî£¬»á±»¼ÇÂ¼ÔÚÖØÐ´»º³åÇøÀï£¬ÖØÐ´»º³åÇøµÄÔöÁ¿ÃüÁî»áÒÔaofµÄ·½Ê½½øÈëaofÎÄ¼þ
+3£¬Ð´ÈëÍê³Éºó£¬×Ó½ø³ÌÍ¨ÖªÖ÷½ø³Ì½«ÐÂµÄº¬ÓÐrdbºÍaof¸ñÊ½µÄaofÎÄ¼þÌæ»»¾ÉµÄaofÎÄ½¡
 
 
+½¥½øÊ½À©ÈÝ
+×´Ì¬»ú
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+utv/cachecloud ËÑºüµÄredis
+http://www.52im.net/thread-1968-1-1.html redisÖªºõÍø
 
 
 
@@ -247,19 +378,68 @@ rehash£¨ÖØÐÂÉ¢ÁÐ£©
 
 
 5£ºredisÎªÊ²Ã´ÊÇµ¥Ïß³Ì£¿
-ÒòÎªReidsÊÇ»ùÓÚÄÚ´æµÄ²Ù×÷£¬cpu²»ÊÇRedisµÄÆ¿¾±£¬redisµÄÆ¿¾± ×îÓÐ¿ÉÄÜÊÇ»úÆ÷ÄÚ´æµÄ´óÐ¡»òÕßÍøÂç¿í´ø£¬¼ÈÈ»µ¥Ïß³ÌÈÝÒ×ÊµÏÖ£¬¶øÇÒcpu²»»á³ÉÎªÆ¿¾±£¬ÄÇ¾Í
-Ë³Àí³ÉÕÂµØ²ÉÓÃµ¥Ïß³ÌµÄ·½°¸£¬reidsÀûÓÃ¶ÓÁÐ¼¼Êõ½«²¢·¢·ÃÎÊ±ä³É´®ÐÐ·ÃÎÊ¡£¾ø´ó²¿·ÖÇëÇóÊÇ´¿´âµÄÄÚ´æ²Ù×÷£¬²ÉÓÃµ¥Ïß³Ì±ÜÃâÁË²»±ØÒªµÄÉÏÏÂÎÄÇÐ»»ºÍ¾ºÕùÌõ¼þ
-£¬·Ç×èÈûIOÓÅµã£ºËÙ¶È¿ì   Ö§³Ö·á¸»µÄÊý¾ÝÀàÐÍ  Ö§³ÖÊÂÎñ 
+ÒòÎªReidsÊÇ»ùÓÚÄÚ´æµÄ²Ù×÷£¬cpu²»ÊÇRedisµÄÆ¿¾±£¬redisµÄÆ¿¾± ×îÓÐ¿ÉÄÜÊÇ»úÆ÷ÄÚ´æµÄ´óÐ¡»òÕßÍøÂç¿í´ø£¬¼ÈÈ»µ¥Ïß³ÌÈÝÒ×ÊµÏÖ£¬¶øÇÒcpu²»»á³ÉÎªÆ¿¾±£¬
+ÄÇ¾ÍË³Àí³ÉÕÂµØ²ÉÓÃµ¥Ïß³ÌµÄ·½°¸£¬reidsÀûÓÃ¶ÓÁÐ¼¼Êõ½«²¢·¢·ÃÎÊ±ä³É´®ÐÐ·ÃÎÊ¡£¾ø´ó²¿·ÖÇëÇóÊÇ´¿´âµÄÄÚ´æ²Ù×÷£¬
+²ÉÓÃµ¥Ïß³Ì±ÜÃâÁË²»±ØÒªµÄÉÏÏÂÎÄÇÐ»»ºÍ¾ºÕùÌõ¼þ£¬·Ç×èÈûIOÓÅµã£ºËÙ¶È¿ì   Ö§³Ö·á¸»µÄÊý¾ÝÀàÐÍ  Ö§³ÖÊÂÎñ
+
+
+redisÖÐµÄrehashÇ³Îö
+1£¬redisÖÐÓÐÒ»¸öÈ«¾Öhash±í£¬¸Ãhash±íÖÐ±£´æËøËùÓÐµÄ¼üÖµ¶Ô£¬hash±íÖÐµÄÃ¿Ò»¸öÔªËØ³ÆÎª¹þÏ£Í°£¨bucket£©£¬¹þÏ£Í°ÖÐ±£´æÁË¼üÖµ¶ÔÒÔ¼°¶ÔÓ¦nextÖ¸ÕëÊý¾Ý¡£
+2£¬´æÔÚÁ½¸öÈ«¾Öhash±í£¬Êý¾Ýcopyµ½hash table1Ê± hash table1ÈÔÈ»¶Ô¿Í»§¶ËÌá¹©·þÎñ£¬
+¸ºÔØÒò×Ó = ¹þÏ£±íÒÑ±£´æ½ÚµãÊýÁ¿/¹þÏ£±í´óÐ¡
+
+rehashÆÚ¼ä£¬dictµÄ²Ù×÷ÈçÏÂ
+Ôö£º½öÌí¼ÓÔÚ h[1]ÖÐ
+É¾£º´Óht[0]ÖÐÕÒµ½ÔòÉ¾³ýht[0],Èç¹ûÕÒ²»µ½Ôòµ½ht[1]ÖÐÉ¾³ý
+²é£º´Óht[0]ÖÐ²é£¬²é²»µ½ÔÙ´Óht[1]²é
+¸Ã£ºÏÈ²é£¨»á²éÁ½¸ö±í£© ÔÙÐÞ¸Ä½Úµã
+
+ÎªÁË·ÀÖ¹ÓÐµÄkv³¤Ê±¼ä²»·ÃÎÊÒ»Ö±²»Ç¨ÒÆµ½ht[1],»á¶¨Ê±È¥rehash£¬Ã¿´ÎÇ¨ÒÆ100¸ö
 
 
 
+redisµÄ²ÛÎªÉõÒªÓÃ16384 2µÄ14 ´Î·½  ¶øcrc16Ëã·¨ÊÇ2µÄ16´Î·½ 65536£¿
+1¡¢·¢ËÍÐÄÌø°üµÄÎÊÌâ 65536 ·¢ËÍµÄÐÄÌø°ü´óÎª8kb ¶ø16384 ÔòÊÇ2kb
+2¡¢½Úµã²»¿ÉÄÜ³¬¹ý1000
+3¡¢²ÛÎ»Ô½ÉÙ£¬Ñ¹ËõÔ½Ð¡ÈÝÒ×´«Êä
+
+²éÕÒ´ókeyÃüÁî
+redis-cli --bigkeys -a 111
 
 
+redis ÊÂÎñµÄÀí½â£¿ ¸üÏñÒ»ÏµÁÐµÄÅúÁ¿ÃüÁî
+1¡¢±¾ÖÊÒ»×éÃüÁîµÄ¼¯ºÏ£¬Ò»´ÎÐÔµÄË³ÐòÐÔµÄÅÅËûÐÔµÄÖ´ÐÐÁÐ¶ÓÖÐµÄÃüÁî
+2¡¢¿ªÆôÊÂÎñ mutiÃüÁî execÖ´ÐÐÊÂÎñ discard È¡ÏûÊÂÎñ watch ¼àÊÓ unwatchÈ¡Ïû¼àÊÓ
+3¡¢´æÔÚÒ»¸öÓï·¨´íÎóÔòÈ«²¿»Ø¹ö£¬·ñÔòÖ»ÊÇÒ»ÌõÊý¾ÝÖ´ÐÐ²»³É¹¦£¬ÖÐ¼äÊµ¼ÊÊÇ×°Èëµ½Ò»¸ö¶ÓÁÐÖÐÁË
+4¡¢redisÊÂÎñÊÇ·þÎñÆ÷¶ËÊµÏÖµÄ£¬µ±ÓÃ»§Ö´ÐÐmutiÃüÁîÊ±£¬·þÎñÆ÷¶ÔÓ¦µÄ½«¿Í»§¶Ë¶ÔÏóÉèÖÃÎªÒ»¸ö×¨ÃÅµÄ×´Ì¬
+´Ë×´Ì¬ÏÂËùÓÐºóÐøÖ´ÐÐÃüÁî¶¼²»ºúÓñ±»Ö´ÐÐ¶øÊÇ·ÅÔÚÒ»¸öÊÂÎñ¶ÓÁÐÖÐ¡£
+5,Óï·¨´íÎó ²ÅÁ¬×ø£¬ÆäËûÊ±ºò²»±£Ö¤Ô­×ÓÐÔ
+6,watch  µÄÊ±ºòÒ²»áÒý·¢Á¬×ö
 
 
+nio:ÓÃ»§²»¶ÏÂÖÑ¯Ñ¯ÎÊÄÚºËÊý¾Ý£¬¶Á²»µ½·µ»Ø¿ÕÏÐÖÐµÄ±êÊ¶
+io¶àÂ·¸´ÓÃ£ºÒ»¸ö½ø³Ì´¦Àí¶à¸öÁ´½Ó£¬select,poll,epoll
+epoll:½«Á´½ÓÐÅÏ¢ºÍÊÂ¼þ·Åµ½¶ÓÁÐÖÐ£¬Ò»´Î·Åµ½ÊÂ¼þ·ÖÅäÆ÷£¬ÊÂ¼þ·ÖÅäÆ÷·Ö·¢¸øÊÂ¼þ´¦ÀíÆ÷
 
 
+redission ¶ÁÐ´Ëø ºÍReentrantReadWriteLock ¶ÁÐ´ËøµÄÇø±ð£¿ËøÔ­Àí
 
+
+redissionµÄËã·¨  ÏÈÅÐ¶Ï´æÔÚ£¬ÔÚÅÐ¶Ï ÊÇ·ñÊÇµ±Ç°Ïß³Ì hsetÊý¾ÝÀàÐÍ
+KEYS[1] £º ËøÃû³Æ
+ARGV[1]£º ËøÊ§Ð§Ê±¼ä
+ARGV[2]£º id + ¡°:¡± + threadId; ËøµÄÐ¡key
+"if (redis.call('exists', KEYS[1]) == 0) then " +
+     "redis.call('hset', KEYS[1], ARGV[2], 1); " +
+     "redis.call('pexpire', KEYS[1], ARGV[1]); " +
+     "return nil; " +
+ "end; " +
+ "if (redis.call('hexists', KEYS[1], ARGV[2]) == 1) then " +
+     "redis.call('hincrby', KEYS[1], ARGV[2], 1); " +
+     "redis.call('pexpire', KEYS[1], ARGV[1]); " +
+     "return nil; " +
+ "end; " +
+ "return redis.call('pttl', KEYS[1]);"
 
 
 

@@ -1,7 +1,7 @@
 package ali;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.TreeMap;
 import java.util.stream.IntStream;
@@ -10,6 +10,11 @@ public class TreeMapMain {
 
 
     public static void main(String[] args) {
+        Map<String,Object> map = new HashMap<>();
+        map.computeIfAbsent("a",a->new Object());
+        System.out.println("map:"+map);
+
+
         TreeMap<String, String> treeMap = new TreeMap<>();
         Random random = new Random();
         IntStream.rangeClosed(1, 20).forEach(e -> {

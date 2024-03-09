@@ -6,9 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="start-boot" />
+        <module name="xxh-jike" />
+        <module name="xxh-mianshi" />
         <module name="xxh-qps" />
-        <module name="xxhqps" />
+        <module name="xxh-springboot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="start-boot" target="8" />
+      <module name="xxh" target="1.8" />
+      <module name="xxh-jike" target="1.8" />
+      <module name="xxh-mianshi" target="1.8" />
+      <module name="xxh-qps" target="8" />
+      <module name="xxh-springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="start-boot" options="-parameters" />
+      <module name="xxh-jike" options="-parameters" />
+      <module name="xxh-mianshi" options="-parameters" />
+      <module name="xxh-qps" options="-parameters" />
+      <module name="xxh-springboot" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -20,7 +20,7 @@ public class CMEmain {
             add("HollisChuang");
             add("H");
         }};
-        userNames.iterator();
+       // userNames.iterator();
         for (String userName : userNames) {
             if (userName.equals("Hollis")) {
                 userNames.remove(userName);

@@ -1,6 +1,7 @@
 package lock;
 
-import java.util.concurrent.locks.Lock;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -16,9 +17,17 @@ public class ReentrantLockMain {
     /*
 
      */
-    private static final Lock LOCK = new ReentrantLock(true);
+    private static final ReentrantLock LOCK = new ReentrantLock(true);
+
+
 
     public static void main(String[] args) throws InterruptedException {
+        Map map = new HashMap();
+        map.put("","");
+
+        LOCK.lock();
+
+
         ReentrantLockMain reentrantLockMain = new ReentrantLockMain();
         System.out.println("开始了");
         reentrantLockMain.parkAndCheckInterrupt();

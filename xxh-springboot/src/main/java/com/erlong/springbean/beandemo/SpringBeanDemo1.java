@@ -2,6 +2,7 @@ package com.erlong.springbean.beandemo;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
  *
@@ -11,6 +12,7 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
  * 所有的springbean在创建生成的时候都会走这个方法
  *
  */
+@EnableAspectJAutoProxy
 public class SpringBeanDemo1 implements BeanPostProcessor {
 
 

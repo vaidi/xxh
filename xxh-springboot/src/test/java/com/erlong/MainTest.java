@@ -1,33 +1,30 @@
 package com.erlong;
 
-import com.erlong.mybatis.cache.EhCacheUtil;
 import com.erlong.mybatis.dao.UserMapper;
 import com.erlong.mybatis.entity.UserEntity;
-import com.erlong.springbean.SpringBeanConfiguration;
 import com.erlong.springbean.beandemo.SpringBeanDemo;
 import com.erlong.springbean.beandemo.Xxh;
+import lombok.extern.log4j.Log4j2;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.UUID;
 
-import static java.lang.Thread.sleep;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringBootLearn.class)
+@Log4j2
 public class MainTest {
 
-    @Autowired
+   // @Autowired
     private UserMapper userMapper;
     @Autowired
     private SqlSessionFactory sessionFactory;
@@ -39,6 +36,35 @@ public class MainTest {
     private SpringBeanDemo springBeanDemo;
     @Autowired
     private BeanFactory beanFactory;
+
+
+    @Test
+    @Transactional
+    //@Async
+    public void test2() {
+        UserEntity user = userMapper.selectByUserId(1L);
+        System.out.println(user.toString());
+        UserEntity u2 = userMapper.selectByUserId(1L);
+        System.out.println(u2.toString());
+    }
+
+
+
+    /**
+     * 映射调试上下文
+     */
+    @Test
+    public void testTraceId(){
+        MDC.put("traceId", UUID.randomUUID().toString());
+        log.info("开始调用服务A，进行业务处理");
+        log.info("业务处理完毕，可以释放空间了，避免内存泄露");
+        //MDC put 一定要对应一个 remove
+        MDC.remove("traceId");
+        log.info("traceId {}", MDC.get("traceId"));
+    }
+
+
+
 
 
     @Test
@@ -96,7 +122,7 @@ public class MainTest {
     @Test
     public void test6() {
         for (int i = 0; i < 100; i++) {
-            EhCacheUtil.put("key_" + i, i, UUID.randomUUID());
+          ///  EhCacheUtil.put("key_" + i, i, UUID.randomUUID());
         }
     }
 
@@ -107,15 +133,9 @@ public class MainTest {
     }
 
 
-    @Test
-    @Transactional
-    //@Async
-    public void test2() {
-        UserEntity user = userMapper.selectByUserId(1L);
-        System.out.println(user.toString());
-        UserEntity u2 = userMapper.selectByUserId(1L);
-        System.out.println(u2.toString());
-    }
+
+
+
 
     @Test
     public void test3() {
@@ -126,7 +146,7 @@ public class MainTest {
         UserEntity u1 = userMapper.selectByUserId(1L);
         System.out.println(u1);
         //第二步进行了一次更新操作，sqlSession.commit()
-        u1.setMobile("134629");
+    //    u1.setMobile("134629");
         userMapper.updateOne(u1);
         sqlSession.commit();
         //第二次查询，由于是同一个sqlSession.commit(),会清空缓存信息

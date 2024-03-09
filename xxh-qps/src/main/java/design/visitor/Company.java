@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.IntStream;
 
 /**
  * @Auther: YUANEL
@@ -18,6 +19,28 @@ public class Company extends Entry {
     private final String name = "xxh公司";
 
     private final String code =new Random().nextInt(Integer.MAX_VALUE)+"";
+
+    /**
+     * l
+     * @param args
+     */
+    public static void main(String[] args) {
+        LinkedList<Integer> linkedList = new LinkedList();
+        IntStream.range(0,100).forEach(e->{
+            new Thread(()->{
+                linkedList.add(e);
+            }).start();
+        });
+        System.out.println(linkedList.size());
+
+
+
+
+
+
+    }
+
+
 
     private List list = new LinkedList();
 

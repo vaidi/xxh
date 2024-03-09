@@ -24,7 +24,7 @@ public class TestBloomFilter {
         // 匹配已在过滤器中的值，是否有匹配不上的
         for (int i = 0; i < total; i++) {
             if (!bf.mightContain(i)) {
-                System.out.println("有坏人逃脱了~~~");
+                System.out.println("有坏人逃脱了~~~"+i);
             }
         }
         Predicate<Integer> predicate = bf.negate();

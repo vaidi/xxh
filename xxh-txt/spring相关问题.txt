@@ -19,3 +19,55 @@ spring  bean 的生命周期
 9：此时，bean已经准备就绪，可以被应用程序使用了，他么将一直驻留在应用上下文中，直到应用 上下文被销毁
 10：如果bean实现了DisposableBean接口，spring将 调用她destory（）接口方法，同样，如果bean使用了destory-method生命销毁方法，该方法会被调用。
 
+执行顺序
+@postconstruct->initializingBean->applicationRun->commandlineRunner
+
+
+三级缓存
+1，一级缓存 成熟的bean
+2，二级缓存 已经实例化的bean
+3，三级缓存  函数 用于保存bean的创建工厂，以边后面有机会创建代理对象
+
+spring 单例和多列的区别
+单列
+1，在容器启动的时候创建
+2、无论调用多少次都只输出一次，说明获取的是同一个对象
+
+多列
+1、多列bean不是在容器启动的时候创建
+2、在使用获取的时候创建，每次调用都会是一个新的bean
+
+
+
+java 的spi：
+接口的服务发现 机制【META-INF/services 加载配置】
+1、基于接口的编程+策略模式+配置文件
+2、ServiceLoader类是jdk提供专门用于实现spi机制的类
+3、spi打破了双亲委派机制
+
+spring boot 自动装配中“查找spring。factories文件步骤”就是基于spi的部分设计思想。
+
+
+
+
+asm 让jdk动态代理  的代理对象直接生成字节码
+
+springboot的自动装配？
+
+
+
+spring的bean的实例化和初始化有什么 区别
+实列化：创建类的实例过程，在spring中，实例化通常调用类的无参函数构造完成。这个步骤产生了一个bean的实例，
+但是这个实例的属性尚未被设置
+初始化：初始化是在bean实例化后，使用前的以个阶段，主要是对bean进行一些定制化的设置，
+
+application refresh 的流程
+1、准备工作
+2、创建beanFactory
+3、准备applicationcontent
+4、完成单例bean
+
+
+
+
+

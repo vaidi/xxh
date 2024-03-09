@@ -29,10 +29,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -54,12 +54,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.16.1</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.mybatis.caches/mybatis-ehcache 用来做缓存的-->
         <!-- MyBatis与ehcache整合jar包 -->
-        <dependency>
-            <groupId>org.mybatis.caches</groupId>
-            <artifactId>mybatis-ehcache</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis.caches</groupId>-->
+            <!--<artifactId>mybatis-ehcache</artifactId>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -70,11 +79,11 @@
             <artifactId>ehcache-core</artifactId>
             <version>2.6.11</version>
         </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.46</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--<version>5.1.46</version>-->
+        <!--</dependency>-->
         <!--Spring Test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -85,11 +94,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.5.0</version>
         </dependency>
     </dependencies>
 

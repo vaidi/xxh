@@ -2,52 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4718322b-c4ac-4f2b-905e-f10eb9e35542" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/design.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/ListVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/PVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/VisitiorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/LambdaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PSpliterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/TaggedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/lambda.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lock/ReentrantLockMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/Mutex$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/Mutex$Sync.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/Mutex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/MutextDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/PAbstractQueuedSynchronizer$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/PAbstractQueuedSynchronizer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/PReadWriteLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/RWLCachedData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/ReadWriteLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/TestReadWriteLock$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/TestReadWriteLock$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/TestReadWriteLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxh-qps/target/classes/lock/TestReentrantReadWriteLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxh-mianshi/src/main/java/jvm/JvmMethodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxh-mianshi/src/main/java/my/KMPmain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxh-mianshi/src/main/java/syn/SynMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxh-txt/算法研究" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxh-qps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-mianshi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-mianshi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-mianshi/src/main/java/ali/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-mianshi/src/main/java/ali/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-mianshi/src/main/java/ali/TreeMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-mianshi/src/main/java/ali/TreeMapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-mianshi/src/main/java/my/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-mianshi/src/main/java/my/PriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/cmeexception/CMEmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/cmeexception/CMEmain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/jvm/ClassLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/jvm/ClassLoaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/lock/ReentrantLockMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lock/ReentrantLockMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/lock/TestReentrantReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/lock/TestReentrantReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/redis/CopyOnWriteArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/redis/CopyOnWriteArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/redis/TestBloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/redis/TestBloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/singal/SingletonHungary.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/singal/SingletonHungary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/singal/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/singal/SingletonLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/thread/BlockingQueueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/thread/BlockingQueueMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/thread/ThreadLocalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/thread/ThreadLocalMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-qps/src/main/java/thread/ThreadPoolExecutorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-qps/src/main/java/thread/ThreadPoolExecutorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/SpringBootLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/SpringBootLearn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/interdependence/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/interdependence/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/mybatis/cache/EhCacheUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/mybatis/cache/EhCacheUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/mybatis/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/mybatis/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/mybatis/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/mybatis/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/proxy/CglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/proxy/CglibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/springbean/beandemo/SpringBeanDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/springbean/beandemo/SpringBeanDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/resource/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/resource/ehcache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/main/resource/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/main/resource/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/src/test/java/com/erlong/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/src/test/java/com/erlong/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-springboot/target/classes/com/erlong/SpringBootLearn.class" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-springboot/target/classes/com/erlong/SpringBootLearn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-txt/g1收集器.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-txt/g1收集器.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-txt/jvm与垃圾回收相关.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-txt/jvm与垃圾回收相关.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-txt/mybatis相关问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-txt/mybatis相关问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-txt/mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-txt/mysql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-txt/redis相关问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-txt/redis相关问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-txt/spring相关问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-txt/spring相关问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxh-txt/zk相关.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xxh-txt/zk相关.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/xxh-qps/target/" />
+    <ignored path="$PROJECT_DIR$/xxh-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/xxh-mianshi/target/" />
+    <ignored path="$PROJECT_DIR$/xxh-jike/target/" />
+    <ignored path="$PROJECT_DIR$/start-boot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -60,8 +78,34 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="d-mysql" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xxh" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start-boot/src/main/resource/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xxh-txt/io.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,11 +118,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>acquire</find>
-      <find>enq</find>
-      <find>trySplit</find>
-      <find>forEachRemaining</find>
+      <find>mybatis</find>
+      <find>dao</find>
+      <find>MapperScan</find>
+      <find>selectByUserId</find>
+      <find>genericBeanDefinition</find>
+      <find>buildSqlSessionFactory</find>
+      <find>BeanDefinitionRegistryPostProcessor</find>
+      <find>eanDefinitionRegistryPostProcessor</find>
+      <find>postProcessBeanDefinitionRegistry</find>
+      <find>getma</find>
+      <find>getObject</find>
+      <find>query</find>
+      <find>query(</find>
+      <find>Fetched SqlSession</find>
+      <find>localCache</find>
+      <find>Creating a new SqlSessi</find>
+      <find>transaction</find>
+      <find>gcroot</find>
+      <find>缓存</find>
+      <find>MapperScannerConfigurer</find>
+      <find>boom</find>
+      <find>布隆</find>
+      <find>Lockr</find>
+      <find>Threadpo</find>
+      <find>单例</find>
+      <find>meth</find>
+      <find>scan</find>
+      <find>ClassPathBeanDefinitionScanner</find>
+      <find>scan(</find>
+      <find>310</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\work_space\xxh\xxh-springboot</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,29 +159,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lock/Mutex.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lock/MutextDemo.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lock/PAbstractQueuedSynchronizer.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lock/ReentrantLockMain.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/lambda.md" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PFunctionalInterface.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PInterface.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PConsumer.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/design.md" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Element.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Entry.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/PVector.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/School.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Company.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/ListVisitor.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/VisitiorMain.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PIterator.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/Test.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PSpliterator.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/LambdaMain.java" />
-        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/lambda/TaggedArray.java" />
+        <option value="$PROJECT_DIR$/xxh-mianshi/src/main/java/risk/RateLimiterSlidingWindow.java" />
+        <option value="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/redis/MyBloomFilter.java" />
+        <option value="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/redis/RedissonConfig.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/resource/logback.xml" />
+        <option value="$PROJECT_DIR$/start-boot/src/test/java/com/erlong/MainTest.java" />
+        <option value="$PROJECT_DIR$/xxh-mianshi/src/main/java/jvm/TestClass.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/jvm/heapoom/TrreeNode.java" />
+        <option value="$PROJECT_DIR$/xxh-mianshi/src/main/java/ali/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/xxh-springboot/src/main/java/com/erlong/mybatis/dao/UserMapper.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/83428acb-b4b1-4771-bfec-1c1ad6c1c534/console.sql" />
+        <option value="$PROJECT_DIR$/xxh-springboot/src/test/java/com/erlong/MainTest.java" />
+        <option value="$PROJECT_DIR$/xxh-springboot/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/SpringBootLearn.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/resource/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/resource/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/bean/Main.java" />
+        <option value="$PROJECT_DIR$/xxh-txt/mysql.txt" />
+        <option value="$PROJECT_DIR$/xxh-qps/src/main/java/redis/TestBloomFilter.java" />
+        <option value="$PROJECT_DIR$/xxh-txt/redis相关问题.txt" />
+        <option value="$PROJECT_DIR$/start-boot/src/test/java/com/erlong/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/DemoFactoryBean.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CurstomMybatisClassPath.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CurstomClassPathBeanScanner.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CurstomMybatisClassPathBeanScanner.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CurstomMybatisBeanDefin.java" />
+        <option value="$PROJECT_DIR$/xxh-txt/es.md" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CustomFactoryBean.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CustomMybatisClassPathBeanScanner.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CustomMybatisBeanDefin.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/bean/BeanProcessor.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/bean/BeanProcessor.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/PersonIoc.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/CustomImportSelector.java" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/Main.java" />
+        <option value="$PROJECT_DIR$/xxh-txt/jvm与垃圾回收相关.txt" />
+        <option value="$PROJECT_DIR$/xxh-txt/nginx.md" />
+        <option value="$PROJECT_DIR$/xxh-txt/lock.md" />
+        <option value="$PROJECT_DIR$/xxh-txt/mybatis相关问题.txt" />
+        <option value="$PROJECT_DIR$/xxh-txt/zk相关.txt" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/CurstomBeanDefinitionRegist.java" />
+        <option value="$PROJECT_DIR$/xxh-txt/框架.md" />
+        <option value="$PROJECT_DIR$/xxh-txt/kafka.txt" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/currentlimit/SmoothRateLimiterMain.java" />
+        <option value="$PROJECT_DIR$/start-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/tool/guava/RetryMain.java" />
+        <option value="$PROJECT_DIR$/xxh-txt/http.md" />
+        <option value="$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/AppConfig.java" />
+        <option value="$PROJECT_DIR$/xxh-txt/io.txt" />
       </list>
     </option>
   </component>
@@ -121,34 +222,197 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xxh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xxh" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="189" />
-    <option name="y" value="50" />
-    <option name="width" value="1552" />
-    <option name="height" value="840" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1017" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erlong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erlong" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erlong" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="start-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xxh" type="462c0819:PsiDirectoryNode" />
+              <item name="xxh-txt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xxh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="channels" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Spliterator&#9;PSI&#9;JAVA://java.util.Spliterator&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;lock&#9;PSI&#9;JAVA://lock.ReadWriteLock#lockWrite&#10;AbstractQueuedSynchronizer&#9;FILE&#9;file://F:/workSpace/xxh/xxh-qps/src/main/java/lock/PAbstractQueuedSynchronizer.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1709979419957" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TLog-master" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work_space\xxh\start-boot\src\main\resource\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.erlong.dao.entity" />
+      <recent name="com.erlong.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work_space\xxh\start-boot\src\main\resource" />
+      <recent name="D:\work_space\xxh\start-boot" />
+      <recent name="D:\work_space\xxh\xxh-txt" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,14 +426,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaMain">
-    <configuration name="LambdaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.LambdaMain" />
-      <module name="xxh-qps" />
+  <component name="RunManager" selected="Application.ServiceMain">
+    <configuration name="AppConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.erlong.spring.ioc.AppConfig" />
+      <module name="start-boot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="com.erlong.spring.ioc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +441,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutextDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.MutextDemo" />
-      <module name="xxh-qps" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.erlong.spring.ioc.Main" />
+      <module name="start-boot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lock.*" />
+          <option name="PATTERN" value="com.erlong.spring.ioc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,13 +455,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.ReentrantLockMain" />
-      <module name="xxh-qps" />
+    <configuration name="RetryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.erlong.tool.guava.RetryMain" />
+      <module name="start-boot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lock.*" />
+          <option name="PATTERN" value="com.erlong.tool.guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,13 +469,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitiorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.visitor.VisitiorMain" />
+    <configuration name="ServiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.erlong.spi.ServiceMain" />
+      <module name="start-boot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.erlong.spi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redis.TestBloomFilter" />
       <module name="xxh-qps" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.visitor.*" />
+          <option name="PATTERN" value="redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,23 +503,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaMain.testReduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xxh-qps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.LambdaMain" />
-      <option name="METHOD_NAME" value="testReduce" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -249,8 +510,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootLearn" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="start-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.erlong.SpringBootLearn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxhJikeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxh-jike" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.erlong.xxhjike.XxhJikeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -259,24 +533,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MutextDemo" />
-      <item itemvalue="Application.ReentrantLockMain" />
-      <item itemvalue="Application.LambdaMain" />
-      <item itemvalue="Application.VisitiorMain" />
-      <item itemvalue="JUnit.LambdaMain.testReduce" />
+      <item itemvalue="Application.TestBloomFilter" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RetryMain" />
+      <item itemvalue="Application.AppConfig" />
+      <item itemvalue="Application.ServiceMain" />
+      <item itemvalue="Spring Boot.XxhJikeApplication" />
+      <item itemvalue="Spring Boot.SpringBootLearn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaMain" />
-        <item itemvalue="JUnit.LambdaMain.testReduce" />
-        <item itemvalue="Application.VisitiorMain" />
-        <item itemvalue="Application.ReentrantLockMain" />
-        <item itemvalue="Application.MutextDemo" />
+        <item itemvalue="Application.ServiceMain" />
+        <item itemvalue="Application.AppConfig" />
+        <item itemvalue="Application.RetryMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestBloomFilter" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\86176\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -299,6 +575,73 @@
       <workItem from="1576825679595" duration="352000" />
       <workItem from="1576826221966" duration="364000" />
       <workItem from="1576837738510" duration="30000" />
+      <workItem from="1587272634723" duration="3334000" />
+      <workItem from="1587281170295" duration="3995000" />
+      <workItem from="1587704145605" duration="675000" />
+      <workItem from="1587705690575" duration="222000" />
+      <workItem from="1587793004955" duration="9844000" />
+      <workItem from="1610524911132" duration="445000" />
+      <workItem from="1639493887557" duration="1664000" />
+      <workItem from="1639495625902" duration="2899000" />
+      <workItem from="1691409670686" duration="968000" />
+      <workItem from="1692427803971" duration="31057000" />
+      <workItem from="1693042071901" duration="1485000" />
+      <workItem from="1693146875024" duration="66784000" />
+      <workItem from="1694404685502" duration="14324000" />
+      <workItem from="1696598015254" duration="2909000" />
+      <workItem from="1696646892284" duration="24299000" />
+      <workItem from="1696759622441" duration="19255000" />
+      <workItem from="1696845475561" duration="11592000" />
+      <workItem from="1696907798932" duration="746000" />
+      <workItem from="1696990432285" duration="66222000" />
+      <workItem from="1697203384175" duration="78556000" />
+      <workItem from="1697687379279" duration="17378000" />
+      <workItem from="1697771042721" duration="3043000" />
+      <workItem from="1697888098356" duration="32817000" />
+      <workItem from="1698214409140" duration="34920000" />
+      <workItem from="1698383833657" duration="1464000" />
+      <workItem from="1698386261836" duration="42328000" />
+      <workItem from="1698678879441" duration="28918000" />
+      <workItem from="1699795100344" duration="654000" />
+      <workItem from="1699850208040" duration="32783000" />
+      <workItem from="1700188467215" duration="60626000" />
+      <workItem from="1700565533961" duration="20158000" />
+      <workItem from="1700646680770" duration="21018000" />
+      <workItem from="1700740086359" duration="25794000" />
+      <workItem from="1700972583240" duration="5944000" />
+      <workItem from="1700996549166" duration="16166000" />
+      <workItem from="1701765242553" duration="12012000" />
+      <workItem from="1701874446294" duration="9658000" />
+      <workItem from="1701959615306" duration="1393000" />
+      <workItem from="1702005090058" duration="37465000" />
+      <workItem from="1702391242460" duration="2818000" />
+      <workItem from="1702471161311" duration="624000" />
+      <workItem from="1702536102489" duration="6482000" />
+      <workItem from="1702617599191" duration="1737000" />
+      <workItem from="1702621992389" duration="5603000" />
+      <workItem from="1702650496964" duration="3871000" />
+      <workItem from="1702710277601" duration="13188000" />
+      <workItem from="1702861945337" duration="21522000" />
+      <workItem from="1703514379694" duration="116000" />
+      <workItem from="1703600285295" duration="31000" />
+      <workItem from="1703667470705" duration="613000" />
+      <workItem from="1704207585272" duration="293000" />
+      <workItem from="1704290014991" duration="16108000" />
+      <workItem from="1704779140508" duration="2289000" />
+      <workItem from="1704872458562" duration="1403000" />
+      <workItem from="1705042326486" duration="1767000" />
+      <workItem from="1705411702405" duration="212000" />
+      <workItem from="1705501015725" duration="1408000" />
+      <workItem from="1708693872091" duration="2044000" />
+      <workItem from="1708856306679" duration="45082000" />
+      <workItem from="1709272938109" duration="31149000" />
+      <workItem from="1709561913208" duration="9680000" />
+      <workItem from="1709710584917" duration="5265000" />
+      <workItem from="1709776152246" duration="3063000" />
+      <workItem from="1709891701782" duration="3304000" />
+      <workItem from="1709906309478" duration="1226000" />
+      <workItem from="1709907556002" duration="413000" />
+      <workItem from="1709979146583" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="aqs研究暂时不明白啊">
       <created>1576577630475</created>
@@ -307,513 +650,682 @@
       <option name="project" value="LOCAL" />
       <updated>1576577630475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="在住处研究下载项目 提交更正">
+      <created>1587705877460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587705877460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LambdaMain_testReduce - 2019.12.19 at 18h 34m 50s.xml">
-      <configuration name="LambdaMain.testReduce" configurationId="JUnit" />
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.26 at 23h 04m 30s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaMain_testReduce - 2019.12.19 at 18h 35m 56s.xml">
-      <configuration name="LambdaMain.testReduce" configurationId="JUnit" />
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 10h 54m 06s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaMain_testReduce - 2019.12.19 at 18h 36m 08s.xml">
-      <configuration name="LambdaMain.testReduce" configurationId="JUnit" />
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 11h 20m 10s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaMain_testReduce - 2019.12.19 at 18h 36m 16s.xml">
-      <configuration name="LambdaMain.testReduce" configurationId="JUnit" />
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 11h 26m 55s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 11h 34m 20s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 11h 37m 51s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 11h 43m 19s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 11h 46m 29s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 11h 56m 43s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisTest_testUserMapper - 2024.02.27 at 12h 05m 15s.xml">
+      <configuration name="MybatisTest.testUserMapper" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47867000" />
+    <option name="totallyTimeSpent" value="975674000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26259378" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.35835353" />
+      <window_info id="Structure" order="1" sideWeight="0.50088185" side_tool="true" weight="0.30104923" />
       <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26132405" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3932322" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="LuaCheck" order="7" weight="0.32905483" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3757293" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.84290355" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3298611" />
-      <window_info anchor="bottom" id="Log Viewer" order="16" />
-      <window_info anchor="bottom" id="SOQL Query" order="17" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="18" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" order="3" sideWeight="0.50247526" side_tool="true" weight="0.33898306" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.45050505" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32828283" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49878934" weight="0.40860215" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.17173524" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.32905483" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.2838384" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50121063" side_tool="true" weight="0.5527728" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32737032" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3255814" />
+      <window_info anchor="bottom" id="Log Viewer" order="17" />
+      <window_info anchor="bottom" id="SOQL Query" order="18" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="19" />
+      <window_info anchor="bottom" id="Java Enterprise" order="20" />
+      <window_info anchor="bottom" id="Spring" order="21" weight="0.3291592" />
+      <window_info anchor="bottom" id="SVN Repositories" order="22" weight="0.3291592" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939467" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299356" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.33118972" />
+      <window_info anchor="right" id="Database" order="4" weight="0.33000997" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.21146086" />
+      <window_info anchor="right" id="jclasslib" order="10" weight="0.54075867" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32901296" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.11216351" />
+      <window_info id="Structure" order="1" sideWeight="0.50088185" side_tool="true" weight="0.30104923" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.50247526" side_tool="true" weight="0.33898306" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.450805" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3291592" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49878934" weight="0.43470484" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3488372" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="LuaCheck" order="8" weight="0.32905483" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.2844365" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50121063" side_tool="true" weight="0.5527728" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32737032" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3255814" />
+      <window_info anchor="bottom" id="Log Viewer" order="17" />
+      <window_info anchor="bottom" id="SOQL Query" order="18" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="19" />
+      <window_info anchor="bottom" id="Java Enterprise" order="20" />
+      <window_info anchor="bottom" id="Spring" order="21" weight="0.3291592" />
+      <window_info anchor="bottom" id="SVN Repositories" order="22" weight="0.3291592" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939467" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="4" weight="0.33010492" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.21226797" />
+      <window_info active="true" anchor="right" id="Bean Validation" order="10" visible="true" weight="0.32903227" />
+      <window_info anchor="right" id="jclasslib" order="11" weight="0.54075867" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aqs研究暂时不明白啊" />
-    <option name="LAST_COMMIT_MESSAGE" value="aqs研究暂时不明白啊" />
+    <MESSAGE value="在住处研究下载项目 提交更正" />
+    <option name="LAST_COMMIT_MESSAGE" value="在住处研究下载项目 提交更正" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/MutextDemo.java</url>
-          <line>46</line>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java</url>
+          <line>350</line>
           <properties />
+          <option name="timeStamp" value="273" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>231</line>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java</url>
+          <line>251</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="274" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>857</line>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java</url>
+          <line>256</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="275" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>605</line>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java</url>
+          <line>273</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="276" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>129</line>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-sources.jar!/org/mybatis/spring/mapper/ClassPathMapperScanner.java</url>
+          <line>193</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>1515</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>1260</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>148</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>643</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>584</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/LambdaMain.java</url>
-          <line>51</line>
-          <properties class="lambda.LambdaMain" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="278" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>beanName.equals(&quot;circulateBean&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>if(beanName.equals(&quot;CirculateBean&quot;)){
+    System.out.println(&quot;断电&quot;);
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/PReadWriteLock.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="178">
+          <caret line="266" column="32" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/ReadWriteLock.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="289" column="61" selection-start-line="289" selection-start-column="61" selection-end-line="289" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/RWLCachedData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="214" column="13" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/Mutex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18549">
-          <caret line="744" selection-start-line="744" selection-end-line="744" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/MutextDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/PAbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="141" column="20" lean-forward="true" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/StampedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="882" column="20" selection-start-line="882" selection-start-column="20" selection-end-line="882" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1264" selection-start-line="1264" selection-end-line="1264" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="457" selection-start-line="457" selection-end-line="457" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lock/ReentrantLockMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/lambda.md">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/threadlocal源码分析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret column="43" selection-start-column="43" selection-end-column="43" />
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/es.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="320">
+            <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Iterable.java">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/springmvc的相关问题.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CustomFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CustomMybatisClassPathBeanScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="26" column="51" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/dao/demomapper/CustomMybatisBeanDefin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="48" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/bean/BeanDefinitionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/bean/BeanProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="61" column="53" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/CustomImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java_enviroment/jdk1.8.0_111/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/PersonIoc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/jvm与垃圾回收相关.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/spring相关问题.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/算法研究">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/trace.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/zk相关.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/CurstomBeanDefinitionRegist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PFunctionalInterface.java">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/nginx.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="16" column="39" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/lunix.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/lock.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/tool/guava.java" />
+    <entry file="file://$PROJECT_DIR$/xxh-txt/redis相关问题.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="9675">
+          <caret line="387" column="24" selection-start-line="387" selection-start-column="24" selection-end-line="387" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/FunctionalInterface.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/tool/guava/SmoothRateLimiterMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="37" />
+        <state relative-caret-position="175">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PInterface.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/tool/guava/RetryMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="725">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/function/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/http.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="450">
+            <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="2425">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/stream/ReferencePipeline.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/tool/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="382" column="31" selection-start-line="382" selection-start-column="31" selection-end-line="382" selection-end-column="31" />
+        <state relative-caret-position="50">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/stream/BaseStream.java">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/框架.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="350">
+            <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxh-txt/mysql.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/AutoCloseable.java">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/mybatis相关问题.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="1075">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/design.md">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-628">
+          <caret line="424" column="18" selection-start-line="424" selection-start-column="18" selection-end-line="424" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/VisitiorMain.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/ioc/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="175">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/PVector.java">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/kafka.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Element.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/resource/META-INF/services/com.erlong.spi.SpiService">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="25">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/ListVisitor.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spi/BlueService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Entry.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spi/RedService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        <state relative-caret-position="50">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/School.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/SpringBootLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/pom.xml">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spi/SpiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="50">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spi/ServiceMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="250">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/design/visitor/Company.java">
+    <entry file="file://$PROJECT_DIR$/start-boot/src/main/resource/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/java_enviroment/jdk1.8.0_111/src.zip!/java/nio/channels/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="775">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/xxh-txt/io.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="973" selection-start-line="973" selection-end-line="973" />
+        <state relative-caret-position="75">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="225" column="24" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/StringJoiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="120" column="21" lean-forward="true" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="298" column="31" selection-start-line="298" selection-start-column="31" selection-end-line="298" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="601" column="26" lean-forward="true" selection-start-line="601" selection-start-column="26" selection-end-line="601" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/stream/StreamSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11799">
-          <caret line="585" column="59" lean-forward="true" selection-start-line="585" selection-start-column="59" selection-end-line="585" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="112" column="33" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/PSpliterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/LambdaMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Spliterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6966">
-          <caret line="485" column="28" selection-start-line="485" selection-start-column="28" selection-end-line="485" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xxh-qps/src/main/java/lambda/TaggedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>start-boot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:3.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

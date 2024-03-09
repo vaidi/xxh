@@ -1,7 +1,7 @@
 ÄÚ´æÄ£ÐÍ
  ¶Ñ  Õ»  ±¾µØ·½·¨Õ»  ³ÌÐò¼ÆÊýÆ÷ ·½·¨Çø¡£
-Õ»£¨ÐéÄâ»ú·½·¨Õ»£©£ºÃ¿¸ö·½·¨Ö´ÐÐµÄÊ±ºò¶¼»á´´½¨Ò»¸öÕ»Ö¡ÓÃÓÚ´æ´¢¾Ö²¿±äÁ¿±í£¬²Ù×÷Õ»£¬¶¯Ì¬Á´½Ó£¬·½·¨³ö¿ÚµÈÐÅÏ¢£¬Ã¿Ò»¸ö·½·¨±»µ÷ÓÃµÄ¹ý³Ì¾Í
-¶ÔÓ¦Ò»¸öÕ»Ö¡ÔÚÐéÄâ»úÕ»ÖÐ´ÓÈëÕ»µ½³öÕ»µÄ¹ý³Ì¡£
+Õ»£¨ÐéÄâ»ú·½·¨Õ»£©£ºÃ¿¸ö·½·¨Ö´ÐÐµÄÊ±ºò¶¼»á´´½¨Ò»¸öÕ»Ö¡ÓÃÓÚ´æ´¢¾Ö²¿±äÁ¿±í£¬²Ù×÷Õ»£¬¶¯Ì¬Á´½Ó£¬·½·¨³ö¿ÚµÈÐÅÏ¢£¬
+Ã¿Ò»¸ö·½·¨±»µ÷ÓÃµÄ¹ý³Ì¾Í¶ÔÓ¦Ò»¸öÕ»Ö¡ÔÚÐéÄâ»úÕ»ÖÐ´ÓÈëÕ»µ½³öÕ»µÄ¹ý³Ì¡£
 ¾Ö²¿±äÁ¿±í£ºÊÇÒ»Æ¬Âß¼­Á¬ÐøµÄÄÚ´æ¿Õ¼ä£¬×îÐ¡µ¥Î»ÊÇslot£¬ÓÃÀ´´æ·Å·½·¨²ÎÊýºÍ·½·¨ÄÚ²¿¶¨ÒåµÄ¾Ö²¿±äÁ¿£¬
 ²Ù×÷Õ»£ºÃ¿¸öÕ»Ö¡¶¼°üº¬ÁËÒ»¸ö±»½Ð×ö²Ù×÷ÊýÕ»µÄºó½øÏÈ³öµÄÕ»¡£Í¨³£Çé¿öÏÂ£¬²Ù×÷ÊýÕ»Ö¸µÄ¾ÍÊÇµ±Ç°Õ»Ö¡µÄ ²Ù×÷ÊýÕ»¡£
 ×÷ÓÃ£º
@@ -11,29 +11,36 @@
  4£ºÏòÆäËû·½·¨´«²ÎµÄ²ÎÊý£¬Ò²´æÔÚ²Ù×÷ÊýÕ»ÖÐ
  5£ºÆäËû·½·¨·µ»ØµÄµÄ½á¹û£¬·µ»ØÔÚ²Ù×÷ÊýÕ»ÖÐ
 
-
 ¾Ö²¿±äÁ¿±íËùÐèÒªµÄÄÚ´æ¿Õ¼äÔÚ±àÒëÆ÷Íê³É·ÖÅä£¬µ±½øÈëÒ»¸ö·½·¨Ê±£¬Õâ¸ö·½·¨ÔÚÕ»ÖÐÐèÒª·ÖÅä¶à´óµÄ¾Ö²¿±äÁ¿ ¿Õ¼äÊÇÍêÈ«È·¶¨µÄ£¬ÔÚ·½·¨
 ÔËÐÐÆÚ¼ä²»»á¸Ä±ä¾Ö²¿±äÁ¿±íµÄ´óÐ¡¡£
 
 ¶Ñ£ºjavaÐéÄâ»ú¹ÜÀíÄÚ´æ×î´óµÄÒ»ÇøÓò£¬ÒòÎª¶Ñ¿éÄÚ´æ´æ·ÅµÄ¶ÔÏóÊÇÏß³Ì¹²ÏíµÄ£¬ËùÒÔ¶àÏß³ÌµÄÊ±ºòÒ²ÐèÒªÍ¬²½»úÖÆ¡£
 ¼´Ê±±àÒëÆ÷£º¿ÉÒÔ°ÑjavaµÄ×Ö½ÚÂë£¬°üÀ¨ÐèÒª±»½âÊÍµÄÖ¸ÁîµÄ³ÌÐò×ª»»³É¿ÉÒÔÖ±½Ó·¢ËÍ¸ø´¦ÀíÆ÷µÄÖ¸Áî³ÌÐò¡£
 ÌÓÒÝ·ÖÎö£ºÍ¨¹ýÌÓÒÝ·ÖÎöÀ´¾ö¶¨Ä³Ð©ÊµÁÐ»òÕß±äÁ¿ÊÇ·ñÔÚ¶ÑÖÐ½øÐÐ·ÖÅä£¬Èç¹û¿ªÆôÁËÌÓÒÝ·ÖÎö£¬¼´¿É½«ÕâÐ©±äÁ¿Ö±½ÓÔÚÕ»ÉÏ½øÐÐ·ÖÅä£¬
-¶ø·Ç¶ÑÉÏ·ÖÅä£¬ÕâÐ©±äÁ¿µÄÖ¸Õë¿ÉÒÔ±»È«¾ÖËùÒýÓÃ£¬»òÕßÆäËûÏß³ÌËùÒýÓÃ¡£
+¶ø·Ç¶ÑÉÏ·ÖÅä£¬ÕâÐ©±äÁ¿µÄÖ¸Õë¿ÉÒÔ±»È«¾ÖËùÒýÓÃ£¬»òÕßÆäËûÏß³ÌËùÒýÓÃ¡£ÌÓÒÝ·ÖÎöµÄÄ¿µÄÊÇÅÐ¶Ï¶ÔÏóÊÇ·ñÓÐ¿ÉÄÜÌÓÒÝ³öº¯ÊýÌå
+-XX:+DoEscapeAnalysis ÓÃÀ´¿ªÆôÌÓÒÝ·ÖÎö
+±êÁ¿Ìæ»»£ºÔÊÐí½«¶ÔÏó´òÉ¢·Ö²¼ÔÚÕ»ÉÏ£¬ÈçÒ»¸ö¶ÔÏóÓÐÁ½¸ö³ÉÔ±±äÁ¿£¬Ôò½«ÕâÁ½¸ö³ÉÔ±±äÁ¿½øÐÐ¾Ö²¿±äÁ¿±íÉÏ½øÐÐ·ÖÅä£¬
+-XX:+EliminateAllocationsÓÃÀ´¿ªÆô±êÁ¿Ìæ»» Ä¬ÈÏÊÇ¿ªµÄ
 
-·½·¨Çø£º  ÒÑ¾­±»ÐéÄâ»úÀà¼ÓÔØµÄÀàÐÅÏ¢  ³£Á¿  ¾²Ì¬±äÁ¿  ¼´Ê±±àÒëÆ÷±àÒëºóµÄ´úÂë
+·½·¨Çø£º  £¨ÀàÐÅÏ¢ºÍ³£Á¿³Ø£©ÒÑ¾­±»ÐéÄâ»úÀà¼ÓÔØµÄÀàÐÅÏ¢  ³£Á¿  ¾²Ì¬±äÁ¿  ¼´Ê±±àÒëÆ÷±àÒëºóµÄ´úÂë
 ÏêÏ¸µÄÀ´Ëµ·½·¨Çø·Å×ÅÀàµÄ°æ±¾£¬×Ö¶Î£¬·½·¨£¬½Ó¿ÚºÍ³£Á¿³Ø¡£³£Á¿³ØÀï´¢´æÕâ×ÖÃæÁ¿ºÍ·ûºÅÒýÓÃ¡£
 
 
 ÌØµã£ºÏß³Ì¹²Ïí  ÄÚ´æ»ØÊÕÂÊµÍ  JavaÐéÄâ»ú¹æ·¶¶Ô·½·¨ÇøµÄÒªÇó±È½Ï¿íËÉ¡£
 
-
 ÔËÐÐÊ±³£Á¿³Ø£º1.7ºó´Ó·½·¨ÇøÒÆ³ö£¬ÔÚ¶ÑÖÐ¿ª±ÙÁËÒ»¿éÇøÓò´æ·ÅÔËÐÐÊ±³£Á¿³Ø¡£
 
 
+openjdkºÍorcaljdkµÄÇø±ð£¿
+openjdkÊÇ»ùÓÚsun¹«Ë¾µÄ ¿ªÔ´µÄ£¬·¢²¼Ô´´úÂë
+orcaljdkÊÇÀïÃæ°üº¬ÁËjvmµÄ`SpotVM ÆäÖÐÒ»Ð©¶«Î÷ÔÚopenjdkÃ»ÓÐ£¬Ö»·¢²¼¶þ½øÖÆ°ü
 
-
-
-
+java¶ÔÏóµÄ·ÖÅäÁ÷³Ì£¿
+1¡¢ÊÇ·ñ¿ªÆôÁËÕ»ÉÏ·ÖÅä£¬Èç¹û¿ªÆôÁË ³¢ÊÔÕ»ÉÏ·ÖÅä¡£·ÖÅä²»³É¹¦½øÐÐÏÂÒ»²½£¬Õ»ÉÏ·ÖÅä¶ÔÏó Òª¿ªÆôÌÓÒÝ·ÖºÍ±êÁ¿·ÖÅä
+Õ»ÉÏ·ÖÅäµÄºÃ´¦£¬Ö»ÊÇÔÚµ±Ç°Ïß³ÌÊ¹ÓÃ£¬½áÊøºó¾ÍÏú»Ù²»ÓÃÀ¬»øµÄ»ØÊÕ
+2¡¢½øÐÐtlab£¨Ïß³Ì±¾µØ·ÖÅä»º³åÇø ÊôÓÚÏß³ÌµÄÄÚ´æ·ÖÅäÇøÓò£©£¬tlabÕ¼ÓÃµÄÊÇedenÇø£¬ËäÈ»×î¿ªÊ¼Ò»Ð©¶ÔÏó·ÖÅäÔÚÕâÀïµ«ÊÇÀ¬»ø»ØÊÕµÄÊ±ºò»¹ÊÇµ½ÐÒ´æÇø
+»òÕßÑøÀÏÇø·ÖÅä tlab²»³É¹¦½øÈëÏÂÒ»²½¡£Ö»ÓÐ·ÖÅäÊÇ¶ÀÏíµÄ£¬¶ÁÈ¡À¬»ø»ØÊÕµÄÊÇÏß³Ì¹²ÏíµÄ
+3¡¢ÊÇ·ñ¿ÉÒÔeden·ÖÅä£¬eden²»ÄÜ·ÖÅäÔò½øÈëÀÏÄê´ú£¬ÀÏÄê´ú»¹²»ÐÐÔòÖ±½Óoom
 
 
 ¶ÔÏóµÄ´´½¨¹ý³Ì
@@ -47,19 +54,20 @@
 ±ØÐëÎ¬»¤Ò»¸öÁÐ±í£¬¼ÇÂ¼ÆäÖÐÄÇÐ©ÄÚ´æ¿é¿ÕÏÐ¿ÉÓÃ£¬·ÖÅäÖ®Ê±´Ó¿ÕÏÐÁÐ±íÖÐÕÒµ½Ò»¿é×ã¹»´óµÄÄÚ´æ¿Õ¼ä·Ö¸ø¶ÔÏóÊµÁÐ¡£
 ³õÊ¼»¯£º·ÖÅäÄÚ´æºó£¬Îª¶ÔÏóÖÐµÄ³ÉÔ±±äÁ¿¸³ÖµÉÏ³õÊ¼Öµ£¬ÉèÖÃ¶ÔÏóÍ·ÐÅÏ¢£¬µ÷ÓÃ¶ÔÏóµÄ¹¹Ôìº¯Êý·½·¨½øÐÐ³õÊ¼»¯¡£
 
-¶ÔÏóµÄ·ÃÎÊ·½Ê½£ºÖ±½Ó·ÃÎÊ·½Ê½£ºÒýÓÃÀàÐÍµÄ±äÁ¿Ö±½Ó´æ·Å¶ÔÏóµÄµØÖ·£¬´Ó¶ø²»ÐèÒª¾ä±ú³Ø£¬Í¨¹ýÒýÓÃÄÜ¹»Ö±½Ó·ÃÎÊ¶ÔÏó£¬µ«¶ÔÏóËùÔÚµÄÄÚ´æ¿Õ¼ä
-ÐèÒª¶îÍâµÄ²ßÂÔ´æ´¢¶ÔÏóËùÊôµÄÀàÐÅÏ¢µÄµØÖ·¡£
+¶ÔÏóµÄ·ÃÎÊ·½Ê½£º
+1¡¢Ö±½Ó·ÃÎÊ·½Ê½£ºÒýÓÃÀàÐÍµÄ±äÁ¿Ö±½Ó´æ·Å¶ÔÏóµÄµØÖ·£¬´Ó¶ø²»ÐèÒª¾ä±ú³Ø£¬Í¨¹ýÒýÓÃÄÜ¹»Ö±½Ó·ÃÎÊ¶ÔÏó£¬µ«¶ÔÏóËùÔÚµÄÄÚ´æ¿Õ¼ä
+ ÐèÒª¶îÍâµÄ²ßÂÔ´æ´¢¶ÔÏóËùÊôµÄÀàÐÅÏ¢µÄµØÖ·¡£
+2¡¢¾ä±ú³Ø£º¶ÑÉÏ½¨¾ä±ú³Ø£¬ÐèÒª ¶àÒ»´ÎÒýÓÃ¡£
 
-
-
-
-
+¿ç´øÒýÓÃµÄÎÊÌâ
+1¡¢½âÊÍ£ºÐÂÉú´úÖÐ´æÔÚÀÏÄê¶ÔÏóµÄÒýÓÃ£¬ÀÏÄê´úÖÐµÄ¶ÔÏó´æÔÚÐÂÉú´ú¶ÔÏóµÄÒýÓÃ
+2¡¢½â¾ö£º¼ÇÒä¼¯£ºÎ»ÓÚÐÂÉú´ú£¬ÓÃÒÔ±ÜÃâ°ÑÕû¸öÀÏÄê´úÉ¨Ãè½øÀ´£¬Ò»ÖÖÓ³Éä±í¹ØÏµ£¬¿Õ¼ä»»Ê±¼ä£¬ÊµÏÖÈç¿¨±í
 
 
 ¶ÔÏóµÄÄÚ´æ²¼¾Ö£º1£º¶ÔÏóÍ·  2£ºÊµÀýÊý¾Ý  3£º¶ÔÆëÌî³ä
-¶ÔÏóÍ·£ºmarkwordºÜÏñÍøÂçÐ­Òé±¨ÎÄÍ·£¬»®·ÖÎª¶à¸öÇø¼ä£¬²¢ÇÒ»á¸ù¾Ý¶ÔÏó×´Ì¬¸´ÓÃ×Ô¼ºµÄ´æ´¢¿Õ¼ä¡£
+¶ÔÏóÍ·£ºmarkwordºÜÏñÍøÂçÐ­Òé±¨ÎÄÍ·£¬»®·ÖÎª¶à¸öÇø¼ä£¬²¢ÇÒ»á¸ù¾Ý¶ÔÏó×´Ì¬¸´ÓÃ×Ô¼ºµÄ´æ´¢¿Õ¼ä¡££¨¶ÔÏóhashÂë£¬¶ÔÏó·Ö´úÄêÁä£¬Ö¸ÏòËø¼ÇÂ¼µÄÖ¸Õë£¬Æ«ÏòÏß³Ì£¬Æ«ÏòÊ±¼ä´Á£¬¶ÔÏó·Ö´úÄêÁä£©
 ÊµÀýÊý¾Ý£º´æ·Å¶ÔÏó³ÌÐòÖÐ¸÷ÖÖÀàÐÍµÄ×Ö¶ÎÀàÐÍ£¬²»¹ÜÊÇ´Ó¸¸ÀàÖÐ¼Ì³ÐÏÂÀ´»¹ÊÇ×ÓÀàÖÐ¶¨ÒåµÄ£¬·ÖÅä²ßÂÔ£ºÏàÍ¬¿í¶È×Ö¶Î×ÜÊÇ ·ÅÔÚÒ»Æð¡£
-¶ÔÆäÌî³ä£º¶ÔÏó´óÐ¡±ØÐëÊÇ8µÄ±¶Êý£¬Õâ¸ö¾ÍÊÇÎªÁËÂú×ã jvmÒªÇó¡£
+¶ÔÆäÌî³ä£º¶ÔÏó´óÐ¡±ØÐëÊÇ8byteµÄ±¶Êý£¬Õâ¸ö¾ÍÊÇÎªÁËÂú×ã jvmÒªÇó¡£
 
 ¶Ñ:
 1:ÐÂÉú´ú
@@ -89,6 +97,12 @@
 2£º²é¿´¶ÔÏóÊÇ·ñÓÐfinalize·½·¨£¬Èç¹ûÓÐÖØÐ´ÇÒÔÚ·½·¨ÄÚÍê³É×Ô¾È{±ÈÈçÔÙ½¨Á¢ÒýÓÃ}£¬»¹ÊÇ¿ÉÒÔÇÀ¾ÈÒ»ÏÂ
 £¬×¢ÒâÕâ±ßÒ»¸öÀàµÄfinalizeÖ»Ö´ÐÐÒ»´Î£¬Õâ¾Í»á³öÏÖÒ»ÑùµÄ´úÂëµÚÒ»´Î×Ô¾È³É¹¦µÚ¶þ´ÎÊ§°Ü¡£
 
+finalize£¨£©ÊÇobjectÖÐµÄ·½·¨£¬µ±À¬»ø»ØÊÕÆ÷½«Òª»ØÊÕ¶ÔÏóËùÕ¼ÓÃÖ®Ç°±»µ÷ÓÃ£¬¼´µ±Ò»¸ö±»ÐéÄâ»úÐû¸æËÀÍöÊ±»áÏÈµ÷ÓÃËüµÄfinalize·½·¨£¬ÈÃ´Ë¶ÔÏó
+´¦ÀíËüÉúÇ°×îºóµÄÊÂÇé¡£ÈÎºÎÒ»¸ö¶ÔÏóµÄfinalize·½·¨Ö»»á±»ÏµÍ³µ÷ÓÃÒ»´Î£¬Èç¹û¶ÔÏóÃæÁÙÏÂ´Î±»»ØÊÕ£¬ËüµÄfinalize·½·¨²»»á±»ÔÙ´ÎÖ´ÐÐ£¬ÏëÔÚÕâ¸ö
+·½·¨ÖÐ½øÐÐ×Ô¾È¾Í»áÊ§°Ü¡£
+Èç¹û¶ÔÏó±»ÅÐ¶¨ÎªÓÐ±ØÒªÖ´ÐÐfinalize£¨£©·½·¨£¬ÄÇÃ´¶ÔÏó»á±»·ÅÈëÒ»¸öF-Queue¶ÓÁÐÖÐ£¬ÐéÄâ»ú»áÒÔ½ÏµÍµÄÓÅÏÈ¼¶Ö´ÐÐÕâÏ·¶îfinalize£¨£©·½·¨£¬µ«²»»á
+È·±£ËùÓÐµÄfinalize£¨£©·½·¨¶¼»áÖ´ÐÐ½áÊø£¬Èç¹ûfinalize£¨£©·½·¨³öÏÖºÄÊ±²Ù×÷£¬ÐéÄâ»ú¾ÍÖ±½ÓÍ£Ö¹Ö¸Ïò¸Ã·½·¨£¬½«¶ÔÏóÇå³ý¡£
+
 
 GC Roots²¢²»°üÀ¨¶ÑÖÐ¶ÔÏóËùÒýÓÃµÄ¶ÔÏó£¬ÕâÑù¾Í²»»áÓÐÑ­»·ÒýÓÃµÄÎÊÌâ¡£
 ÒýÓÃµÄ·ÖÀà£º
@@ -99,17 +113,6 @@ GC Roots²¢²»°üÀ¨¶ÑÖÐ¶ÔÏóËùÒýÓÃµÄ¶ÔÏó£¬ÕâÑù¾Í²»»áÓÐÑ­»·ÒýÓÃµÄÎÊÌâ¡£
 ÒÔºó×öÄ³Ð©ÊÂÇéµÄ»úÖÆ£¬±ÈÈçÍ¨³£ÓÃÀ´×öËùÎ½µÄpost-mortemÇåÀí»ú¡£
 
 ÐéÒýÓÃÖ÷ÒªÓÃÀ´¸ú×Ù¶ÔÏó±»À¬»ø»ØÊÕµÄ»î¶¯¡£
-
-
-
-
-
-
-finalize£¨£©ÊÇobjectÖÐµÄ·½·¨£¬µ±À¬»ø»ØÊÕÆ÷½«Òª»ØÊÕ¶ÔÏóËùÕ¼ÓÃÖ®Ç°±»µ÷ÓÃ£¬¼´µ±Ò»¸ö±»ÐéÄâ»úÐû¸æËÀÍöÊ±»áÏÈµ÷ÓÃËüµÄfinalize·½·¨£¬ÈÃ´Ë¶ÔÏó
-´¦ÀíËüÉúÇ°×îºóµÄÊÂÇé¡£ÈÎºÎÒ»¸ö¶ÔÏóµÄfinalize·½·¨Ö»»á±»ÏµÍ³µ÷ÓÃÒ»´Î£¬Èç¹û¶ÔÏóÃæÁÙÏÂ´Î±»»ØÊÕ£¬ËüµÄfinalize·½·¨²»»á±»ÔÙ´ÎÖ´ÐÐ£¬ÏëÔÚÕâ¸ö
-·½·¨ÖÐ½øÐÐ×Ô¾È¾Í»áÊ§°Ü¡£
-Èç¹û¶ÔÏó±»ÅÐ¶¨ÎªÓÐ±ØÒªÖ´ÐÐfinalize£¨£©·½·¨£¬ÄÇÃ´¶ÔÏó»á±»·ÅÈëÒ»¸öF-Queue¶ÓÁÐÖÐ£¬ÐéÄâ»ú»áÒÔ½ÏµÍµÄÓÅÏÈ¼¶Ö´ÐÐÕâÏ·¶îfinalize£¨£©·½·¨£¬µ«²»»á
-È·±£ËùÓÐµÄfinalize£¨£©·½·¨¶¼»áÖ´ÐÐ½áÊø£¬Èç¹ûfinalize£¨£©·½·¨³öÏÖºÄÊ±²Ù×÷£¬ÐéÄâ»ú¾ÍÖ±½ÓÍ£Ö¹Ö¸Ïò¸Ã·½·¨£¬½«¶ÔÏóÇå³ý¡£
 
 
 
@@ -193,7 +196,7 @@ GCÊÇÔõÃ´ÅÐ¶Ï¶ÔÏóÊÇ±»±ê¼ÇµÄ£ºÍ¨¹ýÃ¶¾Ù¸ù½ÚµãµÄ·½Ê½£¬Í¨¹ýjvmÌá¹©µÄÒ»ÖÖoopMapµÄÊý¾Ý½
 °ÑÕ»ÉÏ´ú±íÒýÓÃµÄÎ»ÖÃÈ«²¿±ê¼ÇÏÂÀ´¡£×Ü½á£ºÍ¨¹ýOOPMap°ÑÕ»ÉÏ´ú±íÒýÓÃµÄÎ»ÖÃÈ«²¿¼ÇÂ¼ÏÂÀ´£¬±ÜÃâÈ«Õ»É¨Ãè£¬¼Ó¿ìÃ¶¾Ù¸ù½ÚµãµÄËÙ¶È£¬³ý´Ë×ÔÍâ»¹ÓÐÒ»¸ö¼«Îª
 ÖØÒªµÄ×÷ÓÃ£¬¿ÉÒÔ°ïHotSpotÊµÏÖ×¼È·GC¡¾Õâ±ßµÄ×¼È·¹Ø¼ü¾ÍÊÇÀàÐÍ£¬¿ÉÒÔ¸ù¾Ý¸ø¶¨Î»ÖÃµÄÄ³¿éÊý¾ÝÖªµÀËüµÄ×¼È·ÀàÐÍ£¬HotSpotÊÇÍ¨¹ýoopMapÍâ²¿¼ÇÂ¼ÏÂÕâÏ·¶îÐÅÏ¢£¬´æ³É Ó³Éä±íÒ»Ñù¶«Î÷¡¿
 
-Ê²Ã´Ê±ºò´¦·£GC:
+Ê²Ã´Ê±ºò´¥·¢GC:
 minor GC(young GC):µ±ÄêÇá´úÖÐedenÇø·ÖÅäÂúµÄÊ±ºò´¥·¢[ÖµµÃÒ»ÌáµÄÊÇÒòÎªyoung GCºó²¿·Ö´æ»îµÄ¶ÔÏó»áÒÑµ½ÀÏÄê´ú(±ÈÈç¶ÔÏó°¾¹ý15ÂÖ)£¬ËùÒÔ¹ýºóold genµÄÕ¼ÓÃÁ¿Í¨³£»á±ä¸ß]
 
 full GC:
@@ -218,11 +221,14 @@ full GC:
 ÐÂÉú´úÊ²Ã´Çé¿öÏÂ»á½úÉýµ½ÀÏÄê´ú£¨¶ÔÏó½úÉý¹æÔò£©£º
 1:³¤ÆÚ´æ»îµÄ¶ÔÏó½øÈëÀÏÄê´ú£¬¶ÔÏóÃ¿°¾¹ýÒ»´ÎGCÄêÁä+1£¨Ä¬ÈÏãÐÖµ15£¬¿ÉÅäÖÃ£©
 2£º¶ÔÏóÌ«´ó£¬ÐÂÉú´úÎÞ·¨ÈÝÄÉ»á·ÖÅäµ½ÀÏÄê´ú
-3£ºedenÇøÂúÁË£¬½øÐÐminor gcºó£¬edenºÍÒ»¸ösurvivorÇøÈÔÈ»´æ»îµÄ¶ÔÏóÎÞ·¨·Åµ½toÇøÔò»áÍ¨¹ý·ÖÅäµ£±£»úÖÆ·Åµ½ÀÏÄê´ú£¬ÕâÖÖÇé¿öÒ»°ãÊÇminor gcºóÐÂÉú´ú´æ»î¶ÔÏóÌ«¶à
+3£ºedenÇøÂúÁË£¬½øÐÐminor gcºó£¬edenºÍÒ»¸ösurvivorÇøÈÔÈ»´æ»îµÄ¶ÔÏóÎÞ·¨·Åµ½toÇøÔò»áÍ¨¹ý·ÖÅäµ£±£»úÖÆ·Åµ½ÀÏÄê´ú£¬
+ÕâÖÖÇé¿öÒ»°ãÊÇminor gcºóÐÂÉú´ú´æ»î¶ÔÏóÌ«¶à
 4£º¶¯Ì¬ÄêÁäÅÐ¶Ï£ºÏàÍ¬ÄêÁä¶ÔÏó´óÓÚÐÒ´çÇøµÄÒ»°ëÂð£¬ÕâÐ´¶ÔÏómonir gcÊ±ÒÆ¶¯µ½ÀÏÄê´ú
 
 
-
+javaµÄjdkÓëjreµÄÇø±ð£¿
+jdkÊÇ¿ª·¢¹¤¾ß°ü °üº¬jre
+jreÊÇÔËÐÐÊ±µÄ»·¾³
 
 
 
@@ -250,23 +256,78 @@ full GC:
 ×¼±¸ £º×¼±¸½×¶Î ÊÇ ÕýÊ½ ÎªÀà±äÁ¿·ÖÅäÄÚ´æ²¢ÉèÖÃ Àà±äÁ¿³õÊ¼Öµ µÄ½×¶Î£¬ÕâÐ©ÄÚ´æ¶¼½«ÔÚ·½·¨ÇøÖÐ ·ÖÅä¡£
 
 
-
-
-
-
 5ÖÖÇé¿ö±ØÐë³õÊ¼»¯£º£¨Ö÷¶¯ÒýÓÃ£©
 1£ºÔÚÓöµ½new£¬pustatic£¬getstatic£¬invokestatic×Ö½ÚÂëÖ¸ÁîÊ±£¬Èç¹ûÀàÉÐÎ´³õÊ¼»¯£¬ÔòÐèÏÈ´¥·¢Æä³õÊ¼»¯
 2£º¶ÔÀà½øÐÐ·´Éäµ÷ÓÃÊ±£¬Èç¹ûÀà»¹Ã»ÓÐ³õÊ¼»¯£¬ÔòÐèÒªÏÈ´¥·¢Æä³õÊ¼»¯
 3£º³õÊ¼»¯Ò»¸öÀàÊ±£¬Èç¹ûÆä¸¸Àà»¹Ã»³õÊ¼»¯£¬ÔòÐèÒªÏÈ³õÊ¼»¯¸¸Àà¡£
 4£ºÐéÄâ»úÆô¶¯Ê±£¬ÓÃÓÚÐèÒªÌØÖ¸¶¨Ò»¸ö°üº¬main£¨£©·½·¨µÄÖ÷Àà£¬ÐéÄâ»ú»áÏÈ³õÊ¼»¯Õâ¸öÀà¡£
 
+Minor GC:Ö»»ØÊÕÐÂÉú´úÇøÓò
+Major GC£ºÖ»»ØÊÕÀÏÄê´øÇøÓò£¬Ö»ÓÐcmsÊµÏÖÁËmajor gc
+Full gc£º»ØÊÕÕû¸ö¶ÑÇø ºÍ·½·¨Çø
+´¥·¢Ìõ¼þ£ºÊÖ¶¯´¥·¢ 1¡¢sys.gc()·½·¨ 2¡¢ÀÏÄê´ú¿Õ¼ä²»×ã 3¡¢Ôª¿Õ¼ä´ïµ½ãÐÖµ
+Mixed gc£º»ØÊÕÕû¸öÐÂÉú´úºÍ²¿·ÖÀÏÄê´ú£¬g1ÊÕ¼¯Æ÷ÊµÏÖÁËÕâ¸ö
+
+Ô­ÐÍÄ£Ê½£º
+1£¬ÓÉÓÚObjectµÄclone£¨£©·½·¨µÄÔ­ÀíÊÇ´Ó¶ÑÄÚ´æÖÐÒÔ¶þ½øÖÆµÄ·½Ê½½øÐÐ¿½±´£¬ÖØÐÂ·ÖÅäÒ»¿éÄÚ´æ£¬ËùÒÔ¶ÔÏó
+copyÊ±¹¹Ôìº¯Êý²»ÓÃÖ´ÐÐ
+2£¬Ô­ÐÍÄ£Ê½ÊôÓÚÇ³copy Ô­ÐÍÄ£Ê½²»»áµ÷ÓÃ¹¹Ôì·½·¨
+
+https://bright-boy.gitee.io/technical-notes/#/start/  Ò»Ð©ÎÊÌâÃèÊö
+
+java ÖÐ²»Ö§³Ö´´½¨volatileÊý×é£¬ÒòÎªÊý×éÊÇÒ»ÖÖÒýÓÃÀàÐÍ£¬Ëü±¾Éí²¢²»ÊÇÒ»¸ö¼òµ¥µÄ±äÁ¿£¬¶øÊÇÒ»¸öÖ¸Ïò¶ÔÏóµÄÒýÓÃ
+£¬¶øvolatileÖ»ÄÜ±£Ö¤¶ÔÓÚËüÐÞÊÎµÄ±äÁ¿µÄ¿É¼ûºÍÓÐÐòÐÔ£¬²¢²»ÄÜ±£Ö¤Êý×éÖÐµÄ¿É¼ûÐÔ¡£µ«ÊÇÎÒÃÇ¿ÉÒÔÓÃvolatileÐÞÊÎÊý×é±äÁ¿¡£
 
 
 
+threadLocalÎªÊ²Ã´±»Éè¼Æ³ÉÈõÒýÓÃ£¿
+entryµÄkey±»Éè¼Æ³ÉÈíÒýÓÃ¾ÍÊÇÎªÁËÈÃ³ÌÐò×Ô¶¯¶Ô·ÃÎÊ²»µ½µÄÊý¾Ý½øÐÐ»ØÊÕÌáÐÑ£¬ËùÒÔ£¬ÔÚ·ÃÎÊ²»µ½µÄÊý¾Ý±»»ØÊÕÇ°ÄÚ´æÐ¹Â©È·Êµ´æÔÚ
+ì³²¨ÄÇÆõÉ¢ÁÐ·½·¨ ÊÇ»ñÈ¡¶ÔÓ¦keyµÄÎ»ÖÃ
 
 
 
+·þÎñÆ÷µÄÒ»Ð©Ïà¹ØÃüÁî
+java -XX:+PrintCommandLineFlags -version  ²é¿´Ê¹ÓÃµÄÀ¬»øÊÕ¼¯Æ÷
+java -XX:+PrintFlagsFinal -version |grep NewRatio ²é¿´Ä¬ÈÏÅäÖÃ È¥µôgrep  ÊÇ²é¿´ËùÓÐÅäÖÃ
 
+-Xms20m ³õÊ¼¶Ñ´óÐ¡ Ä¬ÈÏÎªÎïÀíÄÚ´æµÄ1/64
+-Xmx20m ×î´ó¶Ñ´óÐ¡ Ä¬ÈÏÎªÎïÀíÄÚ´æµÄ1/4
+-Xmn10m ÄêÇá´ú´óÐ¡  ¹Ù·½Ä¬ÈÏÍÆ¼öµÄÅäÖÃÎªÕû¸ö¶ÑµÄ8·ÖÖ®3.
+-XX:+PrintGC  ´òÓ¡gc Ö»ÒªÓöµ½GC¾Í»á´òÓ¡ÈÕÖ¾
+-XX:+PrintGCDetails  ´òÓ¡gcÏêÏ¸ÈÕÖ¾¸÷¸ö·ÖÇøµÄÏêÏ¸Çé¿ö
+-XX:NewRatio=2 ÉèÖÃÄêÇá´úÓëÀÏÄê´úµÄ±ÈÖµ1:2 ÐÂÉú´úÕ¼ÓÃÕâ¸ö¶ÑµÄ1/3 Ò²¾ÍÊÇ Ä¬ÈÏÒ²ÊÇ2
+-XX:SurvivorRatio=8 EdenÓësurvivorÇø´óÐ¡±ÈÖµ£¬Èç¹ûÉèÖÃÎª8  ÔòÊÇeden:survivor=8:2
+-XX:MetaspaceSize=20m×îÐ¡Ôª¿Õ¼ä´óÐ¡ Ä¬ÈÏÎª20m
+-XX:MaxMetaspaceSize=256m  ×î´ó¿Õ¼ä  Ê¹ÓÃÖ±½ÓÄÚ´æ ÎÞÏÞÖÆ Ä¬ÈÏ
+-Xss512k Õ»µÄ´óÐ¡
+-XX:+PrintGCDateStamps Êä³ögcÊ±¼ä
+-XX:+HeapDumpOnOutOfMemoryError  -XX:HeapDumpPath=D:\jvm\oom.dump nÄÚ´æÒç³öµÄÊ±ºò´òÓ¡¶ÑÐÅÏ¢ Á½¸öÒªÁ¬ÆðÀ´Ò»ÆðÓÃ
+-XX:MaxTenuringThreshold ÐÂÉú´ú´æ»î¶ÔÏóµÄ´ÎÊý
+-XX:+PrintCommandLineFlags ½ø³ÌÆô¶¯Ê±´òÓ¡µ±Ç°µÄ½ø³ÌÊµ¼ÊÓ¦ÓÃµ½µÄËùÓÐ²ÎÊý
+-XX:+UseCMSCompactAtFullCollection cmsÊÕ¼¯Æ÷²ÉÓÃµÄ±êÇåËã·¨£¬±êÇåËã·¨ÄÚ´æËéÆ¬¿ÉÒÔÊÕ¼¯ÕûÀí
+
+
+string::intern()ÊÇÒ»¸ö±¾µØ·½·¨£¬ËüµÄ×÷ÓÃÊÇÈç¹û×Ö·û´®³£Á¿³ØÒÑ¾­°üº¬Ò»¸öµÈÓÚ´Ëstring¶ÔÏóµÄ×Ö·û´®£¬
+Ôò·µ»Ø´ú±í³ØÖÐÕâ¸ö×Ö·û´®µÄÒýÓÃ£¬·ñÔò»á½«´Ëstring¶ÔÏó°üº¬µÄ×Ö·û´®Ìí¼Óµ½×Ö·û´®³£Á¿³ØÖÐ£¬²¢·µ»Østring¶ÔÏóµÄÒýÓÃ¡£
+
+
+https://tech.meituan.com/2020/11/12/java-9-cms-gc.html  ÃÀÍÅµÄjvmÎÄÕÂ
+·Ö´øÊÕ¼¯Æ÷
+ParNew:Ò»¿î¶àÏß³ÌÊÕ¼¯Æ÷£¬²ÉÓÃ¸´ÖÆËã·¨£¬Ö÷Òª¹¤×÷ÔÚyoungÇø£¬¿ÉÒÔÍ¨¹ý-XX:ParalledlGCThreads²ÎÊýÀ´¿ØÖÆÊÕ¼¯µÄÏß³ÌÊý
+Õû¸ö¹ý³Ì¶¼ÊÇstwµÄÓëcms×éºÏÊ¹ÓÃ¡£
+CMS:ÒÔ×î¶Ì»ØÊÕÍ£¶ÙÊ±¼äÎªÄ¿±ê£¬²ÉÓÃ¡°±ê¼Ç-Çå³ýËã·¨¡±£¬
+
+·ÖÇøÊÕ¼¯
+G1:Ò»ÖÖ·þÎñ¶ËµÄÀ¬»øÊÕ¼¯Æ÷£¬Ó¦ÓÃÔÚ¶àºË´¦ÀíÆ÷ºÍ´óÈÝÁ¿ÄÚ´æ»·¾³ÖÐ£¬ÊµÏÖ¸ßÍÌÍÂÁ¿µÄÍ¬Ê±¾¡Á¿Âú×ãÀ¬»øÊÕ¼¯ÔÝÍ£Ê±¼äÒªÇó¡£
+
+java8Ä¬ÈÏÀ¬»øÊÕ¼¯Æ÷ -XX:+UseParallelGC //Java8Ê¹ÓÃµÄGCÀàÐÍ =Parallel Scavenge£¨ÐÂÉú´ú£©+Parallel Old£¨ÀÏÄê´ú
+
+
+¶¯Ì¬Ïß³Ì³ØµÄ¿ªÔ´×é¼þ https://dynamictp.cn/
+
+
+Ë«Ç×Î¯ÅÉ
+Ä£¿é»¯£º
 
 
 

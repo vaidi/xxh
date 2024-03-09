@@ -1,7 +1,5 @@
 package com.erlong.mybatis.entity;
 
-import lombok.Data;
-
 import java.io.Serializable;
 
 /**
@@ -9,7 +7,7 @@ import java.io.Serializable;
  * Table: users
  @mbggenerated do_not_delete_during_merge 2018-05-23 15:56:12
  */
-@Data
+//@Data
 public class UserEntity implements Serializable {
     /**
      *   用户ID

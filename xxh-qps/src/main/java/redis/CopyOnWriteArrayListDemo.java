@@ -1,6 +1,5 @@
 package redis;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutorService;
@@ -50,7 +49,7 @@ public class CopyOnWriteArrayListDemo {
 
     public void run() {
         final int NUM = 10;
-        List<String> list = new ArrayList<String>();
+        List<String> list = new CopyOnWriteArrayList<>();
         for (int i = 0; i < NUM; i++) {
             list.add("main_" + i);
         }
@@ -60,6 +59,8 @@ public class CopyOnWriteArrayListDemo {
             executorService.execute(new WriteTask(list, i));
         }
         executorService.shutdown();
+        CopyOnWriteArrayList<String> list1 = new CopyOnWriteArrayList<>();
+        list1.add("123");
     }
 
     public static void main(String[] args) {
