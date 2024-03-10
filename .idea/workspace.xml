@@ -465,7 +465,7 @@
     <property name="SearchEverywhereHistoryKey" value="Spliterator&#9;PSI&#9;JAVA://java.util.Spliterator&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;lock&#9;PSI&#9;JAVA://lock.ReadWriteLock#lockWrite&#10;AbstractQueuedSynchronizer&#9;FILE&#9;file://F:/workSpace/xxh/xxh-qps/src/main/java/lock/PAbstractQueuedSynchronizer.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1710053436104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1710054245616" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TLog-master" />
@@ -473,7 +473,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -716,7 +716,7 @@
       <workItem from="1709891701782" duration="3304000" />
       <workItem from="1709906309478" duration="1226000" />
       <workItem from="1709907556002" duration="413000" />
-      <workItem from="1709979146583" duration="24056000" />
+      <workItem from="1709979146583" duration="24623000" />
     </task>
     <task id="LOCAL-00001" summary="aqs研究暂时不明白啊">
       <created>1576577630475</created>
@@ -746,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710053422334</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="在住处研究下载项目 提交更正">
+      <created>1710053688303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710053688303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -782,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="999048000" />
+    <option name="totallyTimeSpent" value="999615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
