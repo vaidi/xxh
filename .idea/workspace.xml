@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/io/chat/server/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+            <state relative-caret-position="36">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -465,7 +465,7 @@
     <property name="SearchEverywhereHistoryKey" value="Spliterator&#9;PSI&#9;JAVA://java.util.Spliterator&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;lock&#9;PSI&#9;JAVA://lock.ReadWriteLock#lockWrite&#10;AbstractQueuedSynchronizer&#9;FILE&#9;file://F:/workSpace/xxh/xxh-qps/src/main/java/lock/PAbstractQueuedSynchronizer.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1710053388327" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1710053436104" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TLog-master" />
@@ -716,7 +716,7 @@
       <workItem from="1709891701782" duration="3304000" />
       <workItem from="1709906309478" duration="1226000" />
       <workItem from="1709907556002" duration="413000" />
-      <workItem from="1709979146583" duration="23775000" />
+      <workItem from="1709979146583" duration="24056000" />
     </task>
     <task id="LOCAL-00001" summary="aqs研究暂时不明白啊">
       <created>1576577630475</created>
@@ -739,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709979919041</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="在住处研究下载项目 提交更正">
+      <created>1710053422334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710053422334</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -775,7 +782,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="998767000" />
+    <option name="totallyTimeSpent" value="999048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
@@ -1425,8 +1432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/io/chat/server/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+        <state relative-caret-position="36">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
