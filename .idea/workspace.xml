@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/io/chat/server/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="961">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -465,7 +465,7 @@
     <property name="SearchEverywhereHistoryKey" value="Spliterator&#9;PSI&#9;JAVA://java.util.Spliterator&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;lock&#9;PSI&#9;JAVA://lock.ReadWriteLock#lockWrite&#10;AbstractQueuedSynchronizer&#9;FILE&#9;file://F:/workSpace/xxh/xxh-qps/src/main/java/lock/PAbstractQueuedSynchronizer.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1710054321101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1710054984240" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TLog-master" />
@@ -716,7 +716,7 @@
       <workItem from="1709891701782" duration="3304000" />
       <workItem from="1709906309478" duration="1226000" />
       <workItem from="1709907556002" duration="413000" />
-      <workItem from="1709979146583" duration="24623000" />
+      <workItem from="1709979146583" duration="25307000" />
     </task>
     <task id="LOCAL-00001" summary="aqs研究暂时不明白啊">
       <created>1576577630475</created>
@@ -753,7 +753,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710053688303</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="在住处研究下载项目 提交更正">
+      <created>1710054272235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710054272235</updated>
+    </task>
+    <task id="LOCAL-00007" summary="在住处研究下载项目 提交更正">
+      <created>1710054370109</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710054370109</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -789,11 +803,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="999615000" />
+    <option name="totallyTimeSpent" value="1000299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.26957223" />
       <window_info id="Structure" order="1" sideWeight="0.50088185" side_tool="true" weight="0.30104923" />
@@ -1439,8 +1452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start-boot/src/main/java/com/erlong/spring/io/chat/server/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="961">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

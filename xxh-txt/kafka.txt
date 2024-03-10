@@ -1,0 +1,251 @@
+https://archive.apache.org/dist/kafka/2.5.0/kafka-2.5.0-src.tgz
+https://archive.apache.org/dist/kafka/2.5.1/kafka_2.12-2.5.1.tgz
+
+如何保证消息的幂等，内部实现原理？
+1、producer生产的时候生产一个唯一的pid（broker分配）和一个seq序列号，broker为每一个分区维护一个PID-Sequence Number 序号
+，超过这个序号就失效 kafka的幂等是会话级别的
+
+2、isr副本机制，ack 所有leader的机制 保证生产者到机器的所有信息都不丢失
+
+
+kafka高效读写数据？
+1，本身分布式集群，分区，并行度高
+2，读数据采用的稀疏索引，快速的定位要消费的数据
+3，顺序读写磁盘
+4，零拷贝技术（kafak应用层不关心存储的数据，所以不用走应用层，传输效率高，磁盘数据直接到网卡）
+5，页缓存（页缓存属于底层操作系统提供）
+
+
+
+
+Controller选举
+kafka先在brokers里面选一个broker作为Controller主持选举。
+Controller是怎么被选举出来的？
+1，Controller是使用zookeeper选举出来的，每个broker都往zk里面写一个/controller节点，谁先写成功，谁就成为Controller。
+如果controller失去连接，zk上的临时节点就会消失。其它的broker通过watcher监听到Controller下线的消息后，开始选举新的Controller。
+Controller的责任
+2，监听Broker的变化。
+3，监听Topic变化
+4，监听Partition变化
+5，获取和管理Broker、Topic、Partition的信息
+6，管理Partition的主从信息
+
+
+controller会不端负责集群中所有broker的心跳和状态（类似raft算法）
+从节点怎么跟主节点保持同步？
+1，follower节点会向leader发送一个fetch请求，leader向follower发送数据后，更新follower的leo(从节点拉取消息)
+2，当follower同步消息后，leader更新hw（isr中最小的leo）
+
+
+分区leader的选举是由控制器负责具体实施。
+
+kafka中的hw和leo？
+1，leo指每个分区消费的最后偏移量+1
+2，hw指的是高水准，最小的一个leo
+
+
+
+
+事务id，自定义的全局唯一的。
+<pid,partion,Seqnumber>
+pid每次重启都会分配一个新的，
+幂等只能保证单分区单会话内不重复。
+
+
+
+
+kafka和rabbitmq的区别？
+1、kafka采用scala语言，
+2、rabbitmq采用的erlang语言，采用amqp协议
+3、kakfa的tps跑到单机百万，主要是由于producer端将多个消息合并发送给broker
+rabbitMQ 适用于高可靠性和持久性
+kafka适用于高吞吐量和低延迟
+
+
+kafka中的controller,rebalance、hw
+1、controller: 在zk中的数据节点，节点越小 这个broker就是controller。 leader挂了 从其他isr节点中选角新的leader，
+2、rebalance，消费者没有指定消费，消费者机器发生了变化，消费者分配策略range，轮询，sticky。
+3、hw高水位，已完成的写入同步后的状态，在这之前消费者 是消费不到这个消息
+
+
+kafka之groupcoordinator（心跳时间，session超时限制，rebalance策略）
+1，加入消费者组：当消费者第一次加入组时，它会向group coordinator发送joinGroup请求，该请求由group coordinator
+处理，并返回包含里列表和分配策略的相应，此后，将使用返回的分配策略来分配分区，并且所有的成员将受到group coordinator的控制
+2，发送心跳：一旦消费者成功加入组，心跳操作检查是还活着，如果失活进行rebalance操作
+3，rebalance：当消费者组成员发生变化或某个成员失活时，触发rebalance，以重新分配分区确保每个消费者都可以从被分配的分区中读取消息
+4，事务操作：对于事务性的producer，他们需要使用transaction coordinator来执行preparre，commit和rollback，与
+group coordinator不同，transaction只需要关注事务id即可管理所有的producer实列
+
+kafka的分区分配策略？
+1，RangeAssignor  范围分配策略
+按照消费总数和分区总数进行整除计算 获取一个跨度，然后将分区按照跨度进行平均分配
+2，RoundRobinAssignor 分配策略
+将消费组内所有消费者及消费者订阅的主题的分区按照字典排序，通过轮询方式逐个将分区依次分配给每个消费者。
+3，StickyAssignor分配策略
+分区的分配尽可能均匀
+分区的分配尽可能与上次分配的保持相同
+4，自定义分配策略
+
+
+
+kafka的零拷贝：
+解释：将数据在内核空间直接从磁盘文件复制到网卡中，而不需要经由用户态的应用程序程序之手，这样既可以提高数据的读取的性能，
+也能减少核心态和用户之间 的上下 文切换，提高数据传输效率。
+一般文件的传输方式
+1、程序调用read（），将数据从磁盘拷贝到内核模式的readbuffer中
+2、cpu控制将readbuffer中的水拷贝到用户模式的application cache中
+3、程序调用write（），将application cache下的内容复制到内核德 socket buffer中
+4、cpu控制将socket buufet中的数据拷贝到网卡设备中传输
+
+
+1、消费者发送请求到kafka服务
+2、kafka服务去os cache（操作系统缓存）缓存读取数据，缓存没有就去系统查询
+3、从磁盘读取了数据到os cache
+4、os ceche复制数据到kafka应用程序中（这个零拷贝可以去除 ）
+5、kafka将数据复制发送到socket cache
+6、socket cache通过网卡传输给消费者中
+
+
+kafka 二分查找定位数据，稀疏索引的方式，没4kb就产生一个.log文件
+
+
+如何保证事务性，原理是什么？
+事务存在commit（rc）和abort（ru）两种操作，kafka内部保存一个topic来保存事务
+事务日志是transaction coordinator管理的状态的持久化，不需要追溯只保存最近状态的事务
+1、生产者指定一个事务id（在producer 配置中自定义的）
+
+kafka幂等：（只能保证单分区，单会话（重启后produceid发生变化）的幂等）
+<PID, Partition, SeqNumber>
+pid：生产者唯一标识
+partition：消息需要发送的分区号
+seqnumber：生产者，他会记录自己所发送的消息，给他们分配一个自增的id
+
+1、依赖于幂等生产者，开启事务kafka会自动开启生产者
+2、引入了两个组件Transaction Coordinator（协调员） 和Transaction Log
+Transaction Coordinator（属于一个内部模块）负责将事务所有写入一个kafka内部topic，这样即使服务重启kafka事务状态得到了保存。
+tansaction log（属于一个内部主题）有多个分区 每个分区在一个broker 上是 一个leader，存储的是事务最新状态和相关元数据
+3、每个tancnsction id通过hash对应的是一个人transcation log的一个分区 对应的是一个transaction coordinator负责
+
+
+
+数据清理机制
+1、根据消息的保留时间 kafka（默认7天）
+2、根据topic的数据大小  大于1g 清理最久的  默认关闭
+
+（分段数据）
+.index 索引文件（偏移量和文件位置position）
+.log  数据文件
+.timeindex  时间索引文件（时间和offset）
+
+
+ max.in.flight.requests.per.connection  :它控制每个客户端可以同时处于待处理的状态请求数
+
+
+
+kafka事务：
+事务协调器TransactionCoordinator
+1:查找事务协qq调器所在的节点broker节点
+2：获取事务协调器后为生产者分配pid
+3：开启事务
+4：维护一个事务状态的主题_tansaction_state
+https://blog.csdn.net/qq_32445015/article/details/129427441
+http://www.taodudu.cc/news/show-732276.html?action=onClick
+kafka事务：
+https://blog.csdn.net/mingongge/article/details/132137898
+
+
+
+rabbitMq 社区活跃，消息可靠性高（erlang） 协议不同（amqp） 延迟低。
+kafka 单机吞吐量高，消息可靠性一般 自定义协议
+
+
+Rabbit整体架构
+virtual-host:虚拟主机
+publisher：消息发送者
+consumer：消费
+queue：队列
+exchange：交换机
+
+保证消息不丢失：
+生产者确认
+交换机，队列持久化
+生产者->交换机->队列->消费
+消费者确认：手动ack，自动ack，关闭ack，可以利用spring的retry机制，在消费者出现一场时利用本地重试，
+设置重试次数，当次数达到了以后，如果消息依然失败，将消息投递到异常叫唤机，交由人工处理
+
+重复消费问题如何解决：
+幂等：就是唯一标识
+
+死信交换机：延迟队列=死信交换机+ttl
+生产者->交换机->队列（ttl）->死信队列->对列
+
+延迟队列插件DelayExchange
+1,生命一个交换机，添加delayed属性为true
+2，发送消息时，田间x-delay头设置超时时间
+
+重连，生产者确认机制
+
+高可用
+镜像集群方式：本质也是主从模式
+1，交换机，队列，队列中的消息会在各个mq的镜像节点之间同步备份
+2，创建队列节点被称为该队列的柱节点，备份到其他节点叫做该队列的镜像节点。
+3，一个队列的主节点可能是另一个队列的镜像节点
+4，所有操作都是在主节点完成的，然后同步给镜像节点
+5，主机宕机后，镜像节点会替代成为新的主队列、
+
+仲裁队列（主从raft协议）
+
+
+生产者消息确认机制：
+消息从produce->exchange 则会发送confirmCallBack
+消息从exchange->queue 投递失败则会返回一个returnCallBack
+
+消费端处理:
+自动确认：acknowledge=none
+手动确认：acknowledge=manual
+根据异常情况确认acknowledge=auto
+
+ack：
+nack： 消息处理失败再次投递
+reject： 消息处理失败并拒绝该消息
+
+
+kafka中的rebalance机制？
+消费者重平衡的点（rebalance）：
+groupcoordinator（消费组协调器）:辅组实现消费组的初始化和分区的分配。
+corrdinator节点悬着=groupud的hashcode值%50（_consumer_offsets的分区数量）
+1，先选出来哪个节点上的coordinator作为一个消费组老大·
+2，有这个老大coordinator选出一个消费consumer的leader
+3，把消费的情况发送给leader
+4，leader会制定的消费方案
+4，每个消费者都和coordinator保持心跳，一旦超时，消费者会一处，并出发再平衡
+
+
+
+消费者发生重平衡时，如果找不到原先的便宜量，消费者应该从何处读取消息
+auto.offset.reset: 当各分区有初始的已提交的偏移量时，此参数决定了消费者从何处开始读取消息。可能的值有：
+"earliest"（从最早的消息开始读取），
+"latest"（从最新的消息开始读取），
+"none"（如果找到之前的偏移量，则从之前的偏移量开始读取，否则抛出异常）
+
+kafka广播消息机制
+1自定义分区，总是将消息发送到所有分区
+
+
+延迟消息插件：
+rabbitmq延迟消息插件原理：当消息投递到交换机后可以暂存一定时间，到期后投递到队列。
+程序内部里面维护一个时钟，属于cpu密集性，增加服务器的压力
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bootDemo/bootDemo.iml" filepath="$PROJECT_DIR$/bootDemo/bootDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/start-boot/start-boot.iml" filepath="$PROJECT_DIR$/start-boot/start-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xxh.iml" filepath="$PROJECT_DIR$/.idea/xxh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxh-jike/xxh-jike.iml" filepath="$PROJECT_DIR$/xxh-jike/xxh-jike.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxh-mianshi/xxh-mianshi.iml" filepath="$PROJECT_DIR$/xxh-mianshi/xxh-mianshi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxh-qps/xxh-qps.iml" filepath="$PROJECT_DIR$/xxh-qps/xxh-qps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxh-springboot/xxh-springboot.iml" filepath="$PROJECT_DIR$/xxh-springboot/xxh-springboot.iml" />
+    </modules>
+  </component>
+</project>

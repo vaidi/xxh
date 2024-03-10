@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="debug" monitorInterval="30">
+    <!--<Properties>-->
+        <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  [%-5level] [%X{traceId}] %logger - %msg%n</pattern>-->
+    <!--</Properties>-->
+    <!--<appenders>-->
+        <!--<console name="Console" target="SYSTEM_OUT">-->
+            <!--<PatternLayout pattern="${log_pattern}"/>-->
+        <!--</console>-->
+    <!--</appenders>-->
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoder 默认配置为PatternLayoutEncoder -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} [%X{traceId}]-[%X{xxh}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>

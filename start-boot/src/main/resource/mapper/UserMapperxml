@@ -1,0 +1,20 @@
+<!--<mapper namespace="com.erlong.dao.UserMapper">-->
+    <!--<?xml version="1.0" encoding="UTF-8" ?>-->
+    <!--<!DOCTYPE configuration-->
+    <!--PUBLIC "-//mybatis.org//DTD Config 3.0//EN"-->
+    <!--"http://mybatis.org/dtd/mybatis-3-config.dtd">-->
+    <!--<resultMap id="userMap" type="com.erlong.dao.entity.UserEntity">-->
+        <!--&lt;!&ndash;<id property="id" column="id"/>&ndash;&gt;-->
+        <!--<result property="id" column="id" javaType="java.lang.Integer"/>-->
+        <!--<result property="mobile" column="mobile" javaType="java.lang.String"/>-->
+        <!--<result property="name" column="name" javaType="java.lang.String"/>-->
+        <!--<result column="create_time" jdbcType="TIMESTAMP" property="createTime" />-->
+        <!--<result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />-->
+    <!--</resultMap>-->
+
+    <!--<select id="selectByUserId" paratemap="string" resultMap="userMap">-->
+        <!--select * from student where id =  ?-->
+    <!--</select>-->
+
+
+<!--</mapper>-->
